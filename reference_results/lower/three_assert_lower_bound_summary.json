@@ -1,0 +1,12 @@
+{
+  "experiment": "three_assert_lower_bound_feedback",
+  "program_execution_order": "affine1_then_if_x_ge_0_then_affine2_if_y_ge_0_assert1_else_affine3_assert2_else_affine4_merge_assert3",
+  "program_schema_version": 1,
+  "program_fingerprint": "ae198d0e35ea37f500a74b131ef501d581313d404f4bb7622f1bcb6c520d3237",
+  "sample_start": 0,
+  "sample_end": 100,
+  "constraints_per_site_values": [
+    2000
+  ],
+  "num_pairs": 60000
+}
