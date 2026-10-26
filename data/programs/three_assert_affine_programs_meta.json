@@ -1,0 +1,18 @@
+{
+  "source_programs": "data/programs/affine_programs.json",
+  "source_program_fingerprint": "962972bbddcec21d35aa353cdfcef21cef4211b3cba4270e0a342f1c80587993",
+  "seed": 283,
+  "a_low": -1.5,
+  "a_high": 1.5,
+  "b_low": -2.0,
+  "b_high": 2.0,
+  "min_abs_det": 0.05,
+  "num_programs": 100,
+  "program_type": "three_assert_guarded_affine_branch",
+  "schema_version": 1,
+  "execution_order": "affine1_then_if_x_ge_0_then_affine2_if_y_ge_0_assert1_else_affine3_assert2_else_affine4_merge_assert3",
+  "guard1": "x >= 0",
+  "guard2": "y >= 0",
+  "edge_threshold": 5,
+  "affine3_affine4_rng_policy": "continue_source_rng_stream_after_source_affine1_affine2"
+}

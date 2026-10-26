@@ -1,0 +1,21 @@
+{
+  "mode": "fast",
+  "distributions": [
+    "triangle_uniform",
+    "truncated_gaussian_center",
+    "gaussian_mixture",
+    "edge_biased_dirichlet",
+    "center_biased_dirichlet",
+    "vertex_biased_dirichlet"
+  ],
+  "sample_start": 0,
+  "sample_end": 5,
+  "program_start": 0,
+  "program_end": 10,
+  "num_points": 100000,
+  "max_keep": 800,
+  "base_seed": 283,
+  "constraints_per_site": 2000,
+  "constraint_seed": 283,
+  "splits_per_distribution": 1
+}

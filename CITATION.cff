@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite the accompanying paper."
+title: "Artifact for Abstract Interpretation with Error Bounds"
+type: software
+version: 1.0.0
+authors:
+  - given-names: Yuanfeng
+    family-names: Shi
+  - given-names: Ziyue
+    family-names: Jin
+  - given-names: Xin
+    family-names: Zhang
+license: MIT

@@ -1,0 +1,20 @@
+[project]
+name = "error-bounds-artifact"
+version = "1.0.0"
+description = "Artifact for Abstract Interpretation with Error Bounds"
+requires-python = "==3.10.*"
+license = {text = "MIT"}
+authors = [
+  {name = "Yuanfeng Shi"},
+  {name = "Ziyue Jin"},
+  {name = "Xin Zhang"}
+]
+dependencies = [
+  "numpy==2.2.5",
+  "pandas==2.3.3",
+  "matplotlib==3.10.9"
+]
+
+[tool.error-bounds-artifact]
+paper-title = "Abstract Interpretation with Error Bounds"
+program-fingerprint = "ae198d0e35ea37f500a74b131ef501d581313d404f4bb7622f1bcb6c520d3237"

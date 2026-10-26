@@ -1,0 +1,8702 @@
+[
+  {
+    "program_id": 0,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            0.7369361432292347,
+            -0.5396576495175592
+          ],
+          [
+            -0.12890885993754742,
+            -1.4972878010933903
+          ]
+        ],
+        "b": [
+          0.504346744776158,
+          -0.42090577702337706
+        ],
+        "abs_det_A": 1.1729721497978296,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            1.1900745227296872,
+            -0.38817248018478656
+          ],
+          [
+            1.0221401549936724,
+            0.019016749098356156
+          ]
+        ],
+        "b": [
+          1.0170375897705104,
+          0.4550534217934272
+        ],
+        "abs_det_A": 0.41939802766745243,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        0.927047800815539,
+        -0.0610269003861873
+      ],
+      [
+        0.7508005962147817,
+        -0.5800792999628214
+      ]
+    ],
+    "b": [
+      1.780631840741537,
+      0.9625622221137814
+    ],
+    "abs_det_A": 0.4919422061340613,
+    "affine_layer_abs_dets": [
+      1.1729721497978296,
+      0.41939802766745243
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 1,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.0863572080186712,
+            -0.9910889250325863
+          ],
+          [
+            -0.5664418398549862,
+            -0.11542556909695367
+          ]
+        ],
+        "b": [
+          -0.4207835020927786,
+          0.3190872703193621
+        ],
+        "abs_det_A": 0.5514264042741794,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -1.0180726388057768,
+            -1.4624398530773401
+          ],
+          [
+            -1.2797055062875422,
+            -0.8266951106065428
+          ]
+        ],
+        "b": [
+          -1.9580601436023555,
+          -0.0701247505603968
+        ],
+        "abs_det_A": 1.02985665985438,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        0.9163050317018523,
+        1.1778034695106232
+      ],
+      [
+        0.5787864940602037,
+        1.363723708196231
+      ]
+    ],
+    "b": [
+      -1.9963179139855218,
+      0.20456632779288264
+    ],
+    "abs_det_A": 0.5678901548613174,
+    "affine_layer_abs_dets": [
+      0.5514264042741794,
+      1.02985665985438
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 2,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            0.08547389698057373,
+            1.03529272358037
+          ],
+          [
+            1.209973912872969,
+            -1.4129052043172368
+          ]
+        ],
+        "b": [
+          1.5326324945281424,
+          0.5477059042130734
+        ],
+        "abs_det_A": 1.3734437015965812,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -1.4341519509516185,
+            -0.7163015136078228
+          ],
+          [
+            1.0808636763072923,
+            0.6550728807880195
+          ]
+        ],
+        "b": [
+          -1.8081187343544403,
+          0.8547570133825548
+        ],
+        "abs_det_A": 0.1652497626550058,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.9892887013270151,
+        -0.4727009428919955
+      ],
+      [
+        0.8850067273027816,
+        0.19345441679079045
+      ]
+    ],
+    "b": [
+      -4.398469184673587,
+      2.8701110903437237
+    ],
+    "abs_det_A": 0.22696124570884765,
+    "affine_layer_abs_dets": [
+      1.3734437015965812,
+      0.1652497626550058
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 3,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -1.284669218176648,
+            1.289726449534113
+          ],
+          [
+            0.5125462337025581,
+            1.0273808568525018
+          ]
+        ],
+        "b": [
+          -0.7520792456189929,
+          -1.625243348482977
+        ],
+        "abs_det_A": 1.9808889963576397,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.4045123904352086,
+            0.7808978030352094
+          ],
+          [
+            -1.3872809471024667,
+            -0.6631966840983383
+          ]
+        ],
+        "b": [
+          1.7996397224784473,
+          -1.7814216208069644
+        ],
+        "abs_det_A": 0.815053367771598,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.11941838851086778,
+        1.323989783105108
+      ],
+      [
+        1.4422781670668572,
+        -2.470568507983475
+      ]
+    ],
+    "b": [
+      0.22626538880845604,
+      0.3397795869182514
+    ],
+    "abs_det_A": 1.614530247662995,
+    "affine_layer_abs_dets": [
+      1.9808889963576397,
+      0.815053367771598
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 4,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            0.7888628540724971,
+            0.3021187289017364
+          ],
+          [
+            -0.8696765012473228,
+            0.12680159982167627
+          ]
+        ],
+        "b": [
+          -1.6404287047835298,
+          0.23210241960294953
+        ],
+        "abs_det_A": 0.36277463104883667,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            1.3554154245369583,
+            -0.016447526286345937
+          ],
+          [
+            0.6702795332459548,
+            -0.6768144250593298
+          ]
+        ],
+        "b": [
+          1.5566959889643606,
+          -0.7208452795346356
+        ],
+        "abs_det_A": 0.9063402710322663,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        1.083540907368993,
+        0.40741081254869554
+      ],
+      [
+        1.1173682268021015,
+        0.11668284871320601
+      ]
+    ],
+    "b": [
+      -0.6705838909999642,
+      -1.9774813317786557
+    ],
+    "abs_det_A": 0.3287972574284331,
+    "affine_layer_abs_dets": [
+      0.36277463104883667,
+      0.9063402710322663
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 5,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -1.4583288043844402,
+            0.23490734068662134
+          ],
+          [
+            0.47265943341409766,
+            1.0661864035691648
+          ]
+        ],
+        "b": [
+          -0.036786619098824413,
+          -0.2784385516258725
+        ],
+        "abs_det_A": 1.665881513721717,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -1.1291798244354165,
+            0.9647866829444798
+          ],
+          [
+            0.8519592139299759,
+            -0.8107133642642419
+          ]
+        ],
+        "b": [
+          1.7967649258139908,
+          -1.4421013869566712
+        ],
+        "abs_det_A": 0.0934822703158547,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        2.102730990229938,
+        0.7633898139848894
+      ],
+      [
+        -1.625627981249183,
+        -0.6642400928525954
+      ]
+    ],
+    "b": [
+      1.569669827282583,
+      -1.2477082311177732
+    ],
+    "abs_det_A": 0.15573038597991876,
+    "affine_layer_abs_dets": [
+      1.665881513721717,
+      0.0934822703158547
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 6,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            1.3170973502763945,
+            1.1288078654964613
+          ],
+          [
+            -0.8883677673481974,
+            -0.6229990048836976
+          ]
+        ],
+        "b": [
+          1.8336605496542386,
+          -1.580664857789444
+        ],
+        "abs_det_A": 0.1822461846790271,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -0.6273898838729435,
+            0.12636812580777246
+          ],
+          [
+            0.8941583728278006,
+            0.8102836499485049
+          ]
+        ],
+        "b": [
+          -1.540933538586025,
+          -0.7006749440148772
+        ],
+        "abs_det_A": 0.6213568827949139,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.9385949234270957,
+        -0.7869298522759501
+      ],
+      [
+        0.45786374655544715,
+        0.5045270966560896
+      ]
+    ],
+    "b": [
+      -2.891099273505057,
+      -0.34187890093247764
+    ],
+    "abs_det_A": 0.11323992121342646,
+    "affine_layer_abs_dets": [
+      0.1822461846790271,
+      0.6213568827949139
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 7,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.9836565651735054,
+            -1.1496969162256199
+          ],
+          [
+            0.40576476162448927,
+            -0.7622139848747559
+          ]
+        ],
+        "b": [
+          -0.510049003242075,
+          -1.048317940356811
+        ],
+        "abs_det_A": 1.2162632854418116,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            1.2182934806708676,
+            -0.5641750153900419
+          ],
+          [
+            -1.0198569533906587,
+            0.8848620433586829
+          ]
+        ],
+        "b": [
+          0.9416619206819306,
+          0.47021364084152717
+        ],
+        "abs_det_A": 0.5026438463421699,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -1.427304721204213,
+        -0.9706461711378527
+      ],
+      [
+        1.3622348238345654,
+        0.4980721701716554
+      ]
+    ],
+    "b": [
+      0.9117073353438973,
+      0.06277390857423837
+    ],
+    "abs_det_A": 0.6113472559592367,
+    "affine_layer_abs_dets": [
+      1.2162632854418116,
+      0.5026438463421699
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 8,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            0.6434168749137421,
+            0.33627318797405437
+          ],
+          [
+            -0.3676166835838295,
+            1.4563015428401709
+          ]
+        ],
+        "b": [
+          0.5901727410498179,
+          -0.5526360583683196
+        ],
+        "abs_det_A": 1.0606286217674674,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.3685641232509984,
+            -0.5999412513314989
+          ],
+          [
+            -0.6033347447887223,
+            0.6318140678211903
+          ]
+        ],
+        "b": [
+          1.0356264248427638,
+          -0.838299028417488
+        ],
+        "abs_det_A": 0.12910140379615276,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        0.457688789547099,
+        -0.7497571372290491
+      ],
+      [
+        -0.6204611482728746,
+        0.7172265037105077
+      ]
+    ],
+    "b": [
+      1.5846920921028254,
+      -1.5435339845823974
+    ],
+    "abs_det_A": 0.1369286439765588,
+    "affine_layer_abs_dets": [
+      1.0606286217674674,
+      0.12910140379615276
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 9,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.6760738852054407,
+            0.5630537991243632
+          ],
+          [
+            -0.8615080914303335,
+            -1.3302992150443806
+          ]
+        ],
+        "b": [
+          1.9718425379400055,
+          -1.0754519195239727
+        ],
+        "abs_det_A": 1.384455962657031,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -0.428684479062865,
+            1.1473380681463001
+          ],
+          [
+            -1.2929433969417017,
+            0.2866128072364591
+          ]
+        ],
+        "b": [
+          -1.6990903086718099,
+          -0.6322524096957332
+        ],
+        "abs_det_A": 1.3605767173067,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.6986186480267834,
+        -1.7676753560075538
+      ],
+      [
+        0.6272060131793246,
+        -1.1092774841891124
+      ]
+    ],
+    "b": [
+      -3.7782955275734835,
+      -3.4899714926366343
+    ],
+    "abs_det_A": 1.8836585489275905,
+    "affine_layer_abs_dets": [
+      1.384455962657031,
+      1.3605767173067
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 10,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            1.0760461824774903,
+            -0.12562276135860095
+          ],
+          [
+            1.134731529954438,
+            0.3639078901895949
+          ]
+        ],
+        "b": [
+          0.5703532748149125,
+          1.146226459007044
+        ],
+        "abs_det_A": 0.5341298042054978,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -0.7216127128614986,
+            1.295130118048891
+          ],
+          [
+            -1.1720573654431323,
+            0.20254821523974753
+          ]
+        ],
+        "b": [
+          1.8609163468433425,
+          1.6755537015082167
+        ],
+        "abs_det_A": 1.3718054269820272,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        0.693136375441849,
+        0.5619590504013056
+      ],
+      [
+        -1.0313500075611677,
+        0.22094597638721764
+      ]
+    ],
+    "b": [
+      2.9338545820792685,
+      1.2392330683892399
+    ],
+    "abs_det_A": 0.7327221641219496,
+    "affine_layer_abs_dets": [
+      0.5341298042054978,
+      1.3718054269820272
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 11,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            0.36079975000957365,
+            -0.4774371534081354
+          ],
+          [
+            0.5923729588313997,
+            1.3455475331079092
+          ]
+        ],
+        "b": [
+          1.0646351471037305,
+          1.1144537142614315
+        ],
+        "abs_det_A": 0.7682940727917502,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -0.7052711253066989,
+            -0.5032111966412394
+          ],
+          [
+            1.4991274128477974,
+            -0.6293253340458554
+          ]
+        ],
+        "b": [
+          -0.5449930845281901,
+          -0.2325546646318135
+        ],
+        "abs_det_A": 1.1982226858633602,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.5525503511710879,
+        -0.3403719458255159
+      ],
+      [
+        0.1680894855916818,
+        -1.5625262753338667
+      ]
+    ],
+    "b": [
+      -1.8566550999218698,
+      0.6621151130664166
+    ],
+    "abs_det_A": 0.9205873874334309,
+    "affine_layer_abs_dets": [
+      0.7682940727917502,
+      1.1982226858633602
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 12,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            0.8971912663664439,
+            -0.3100845325886987
+          ],
+          [
+            -1.1985810116318754,
+            -1.0800971929160594
+          ]
+        ],
+        "b": [
+          -1.7072871141143517,
+          -0.6192969461135709
+        ],
+        "abs_det_A": 1.3407152010727603,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.678248799669185,
+            -1.4962351191086023
+          ],
+          [
+            -0.7760062862230589,
+            -0.7553500590860082
+          ]
+        ],
+        "b": [
+          0.3019620057970438,
+          -1.2720622298412265
+        ],
+        "abs_det_A": 1.6734031290011158,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        2.401877902187045,
+        1.405764890067362
+      ],
+      [
+        0.2091221753107172,
+        1.0564790250371463
+      ]
+    ],
+    "b": [
+      0.0706104098901501,
+      0.5205892879378053
+    ],
+    "abs_det_A": 2.243557012574517,
+    "affine_layer_abs_dets": [
+      1.3407152010727603,
+      1.6734031290011158
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 13,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            0.2833309382257041,
+            -0.9519881851834157
+          ],
+          [
+            -0.6545606069483388,
+            -0.1638760185031738
+          ]
+        ],
+        "b": [
+          -0.259317820571483,
+          0.6475682894378583
+        ],
+        "abs_det_A": 0.6695651103765011,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            1.112088848596164,
+            -1.413208887974807
+          ],
+          [
+            1.0092663408800169,
+            1.405771260832767
+          ]
+        ],
+        "b": [
+          -0.935176532623482,
+          1.950661389613002
+        ],
+        "abs_det_A": 2.989646706114541,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        1.2401200443206708,
+        -0.8271043988631674
+      ],
+      [
+        -0.634206110440069,
+        -1.1911818293725343
+      ]
+    ],
+    "b": [
+      -2.1387102513275127,
+      2.599273532438217
+    ],
+    "abs_det_A": 2.001763126766326,
+    "affine_layer_abs_dets": [
+      0.6695651103765011,
+      2.989646706114541
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 14,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -1.3458744369656424,
+            0.30280115340891567
+          ],
+          [
+            1.3330808348692118,
+            -0.39399216005504956
+          ]
+        ],
+        "b": [
+          -1.938038599535755,
+          0.7761616345176994
+        ],
+        "abs_det_A": 0.1266055621972495,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -0.005488730548183662,
+            1.3571973026949906
+          ],
+          [
+            1.4610320971920974,
+            -0.840902596339141
+          ]
+        ],
+        "b": [
+          0.3287857333170119,
+          1.5679424678613412
+        ],
+        "abs_det_A": 1.9782933336913464,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        1.8166408554950733,
+        -0.536387090850427
+      ],
+      [
+        -3.0873568863686156,
+        0.7737112345247716
+      ]
+    ],
+    "b": [
+      1.3928275818045994,
+      -1.9162704653023832
+    ],
+    "abs_det_A": 0.2504629397030638,
+    "affine_layer_abs_dets": [
+      0.1266055621972495,
+      1.9782933336913464
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 15,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.14687835090684898,
+            1.1091252937991207
+          ],
+          [
+            0.5956442608276986,
+            -0.2627721751387553
+          ]
+        ],
+        "b": [
+          -0.1294077766766213,
+          1.5216158856746138
+        ],
+        "abs_det_A": 0.6220485720416953,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.8402526457676394,
+            0.3129324793655952
+          ],
+          [
+            -1.0437441581573843,
+            0.8455896288072178
+          ]
+        ],
+        "b": [
+          -0.6117741878655072,
+          1.866152784451895
+        ],
+        "abs_det_A": 1.037130370074487,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        0.0629815124052314,
+        0.8497155143280605
+      ],
+      [
+        0.6569740301332573,
+        -1.37984047210387
+      ]
+    ],
+    "b": [
+      -0.24434638285471305,
+      3.2878840073330164
+    ],
+    "abs_det_A": 0.6451454657259096,
+    "affine_layer_abs_dets": [
+      0.6220485720416953,
+      1.037130370074487
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 16,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            0.9689409502208908,
+            -1.2143424303171433
+          ],
+          [
+            0.9500812227738167,
+            -1.4037230373185712
+          ]
+        ],
+        "b": [
+          -0.6842788490083884,
+          1.7434660611430606
+        ],
+        "abs_det_A": 0.20640079256457142,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -0.38930812350259636,
+            -0.2671183947140192
+          ],
+          [
+            -1.398058052484482,
+            -0.5998169703929485
+          ]
+        ],
+        "b": [
+          -0.6186530710892693,
+          -0.22507954568930222
+        ],
+        "abs_det_A": 0.13993340350797165,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.631000754190592,
+        0.8477136171879734
+      ],
+      [
+        -1.9245105385097006,
+        2.539698112693671
+      ]
+    ],
+    "b": [
+      -0.8179696119202056,
+      -0.3141785214660694
+    ],
+    "abs_det_A": 0.028882365390303328,
+    "affine_layer_abs_dets": [
+      0.20640079256457142,
+      0.13993340350797165
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 17,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -1.1348786008895926,
+            -0.19502088523156935
+          ],
+          [
+            0.7213760726708376,
+            1.1302831847651031
+          ]
+        ],
+        "b": [
+          -0.6838125875115773,
+          1.0274254433951837
+        ],
+        "abs_det_A": 1.1420507990581135,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -1.3143191702978063,
+            1.2256877355676412
+          ],
+          [
+            -0.4726909901797254,
+            0.5332740507771536
+          ]
+        ],
+        "b": [
+          0.16168490848720474,
+          -1.0715682144794139
+        ],
+        "abs_det_A": 0.12152075858216507,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        2.3757745061145417,
+        1.6416939253532212
+      ],
+      [
+        0.9211380299951748,
+        0.6949353078108256
+      ]
+    ],
+    "b": [
+      2.3197356663242394,
+      -0.20043683732034356
+    ],
+    "abs_det_A": 0.13878287944090972,
+    "affine_layer_abs_dets": [
+      1.1420507990581135,
+      0.12152075858216507
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 18,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -1.335073342638709,
+            -0.9015344651729106
+          ],
+          [
+            -0.15413283186597893,
+            -0.1895628868050685
+          ]
+        ],
+        "b": [
+          1.174797825325688,
+          1.6330093633438536
+        ],
+        "abs_det_A": 0.11412429678520451,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.5079855855297066,
+            -0.963702867127352
+          ],
+          [
+            -1.4382010122044506,
+            0.6934906516287809
+          ]
+        ],
+        "b": [
+          0.20371245925882953,
+          -0.07767857870216721
+        ],
+        "abs_det_A": 1.0337151842398649,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.5296597616977252,
+        -0.27528421565108974
+      ],
+      [
+        1.8132141547420435,
+        1.1651276904537984
+      ]
+    ],
+    "b": [
+      -0.7732429850643583,
+      -0.6347972727199298
+    ],
+    "abs_det_A": 0.1179720184775627,
+    "affine_layer_abs_dets": [
+      0.11412429678520451,
+      1.0337151842398649
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 19,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.07616420836030757,
+            0.21254071409693975
+          ],
+          [
+            -0.5340610074326309,
+            -0.8624632267945262
+          ]
+        ],
+        "b": [
+          -0.7721005100728475,
+          -0.8540008025955474
+        ],
+        "abs_det_A": 0.17919853679974393,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.8297991890248948,
+            -0.7513764029699123
+          ],
+          [
+            -1.049363952391436,
+            0.45257975983569954
+          ]
+        ],
+        "b": [
+          1.0888745783014686,
+          -0.512048298993137
+        ],
+        "abs_det_A": 0.41291699427342227,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        0.3380798404011114,
+        0.8244006292351074
+      ],
+      [
+        -0.16178122776573461,
+        -0.613365963838652
+      ]
+    ],
+    "b": [
+      1.0898622523849726,
+      -0.08833733423783752
+    ],
+    "abs_det_A": 0.07399412119354551,
+    "affine_layer_abs_dets": [
+      0.17919853679974393,
+      0.41291699427342227
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 20,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            1.0001242270606907,
+            -0.4854905845211097
+          ],
+          [
+            -0.6086006228091262,
+            0.7990212197721016
+          ]
+        ],
+        "b": [
+          1.658001337352919,
+          -1.4235997896230264
+        ],
+        "abs_det_A": 0.5036506077221492,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.9070241336196241,
+            0.27112268052867394
+          ],
+          [
+            0.06010298302268291,
+            1.000605689406612
+          ]
+        ],
+        "b": [
+          1.0721874345731806,
+          0.6557114206950172
+        ],
+        "abs_det_A": 0.8912782266640198,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        0.7421313783342884,
+        -0.22371890190184157
+      ],
+      [
+        -0.5488587963196166,
+        0.7703257461014311
+      ]
+    ],
+    "b": [
+      2.1900644701632386,
+      -0.6690998020093308
+    ],
+    "abs_det_A": 0.448892820508853,
+    "affine_layer_abs_dets": [
+      0.5036506077221492,
+      0.8912782266640198
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 21,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.3159064447423696,
+            -0.018159622056913793
+          ],
+          [
+            0.717240396888895,
+            1.2267354307290557
+          ]
+        ],
+        "b": [
+          0.7202955581762818,
+          -1.4726187566674134
+        ],
+        "abs_det_A": 0.37450881402966224,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            1.022363656317025,
+            -0.07978467330525452
+          ],
+          [
+            0.39899631598358987,
+            -0.472720762474641
+          ]
+        ],
+        "b": [
+          -0.005216813027038469,
+          -1.6598300103315977
+        ],
+        "abs_det_A": 0.45145873641979506,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.3801960586480328,
+        -0.11644042317614008
+      ],
+      [
+        -0.46509993494261154,
+        -0.5871489304692593
+      ]
+    ],
+    "b": [
+      0.8486795938628771,
+      -0.6762972747136402
+    ],
+    "abs_det_A": 0.16907527595990735,
+    "affine_layer_abs_dets": [
+      0.37450881402966224,
+      0.45145873641979506
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 22,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            0.30841105766794663,
+            1.0301616924545867
+          ],
+          [
+            -0.8574188265639836,
+            0.8287036617284476
+          ]
+        ],
+        "b": [
+          0.5196702182608495,
+          1.4484171348945085
+        ],
+        "abs_det_A": 1.1388614023225498,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.45214579847755765,
+            1.4882020457073954
+          ],
+          [
+            0.21366088792191107,
+            0.2161359512689831
+          ]
+        ],
+        "b": [
+          -1.1669604300702212,
+          -0.6419954401520225
+        ],
+        "abs_det_A": 0.22024560822682573,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -1.1365656877919732,
+        1.6990617656653564
+      ],
+      [
+        -0.11942365328907265,
+        0.39921791616075325
+      ]
+    ],
+    "b": [
+      1.2235436188979896,
+      -0.21790722460711642
+    ],
+    "abs_det_A": 0.2508292222405857,
+    "affine_layer_abs_dets": [
+      1.1388614023225498,
+      0.22024560822682573
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 23,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            1.3037128677297338,
+            0.47688461775981317
+          ],
+          [
+            -1.0523072214746922,
+            -0.9362173247837348
+          ]
+        ],
+        "b": [
+          0.6208367404344957,
+          -0.5713652680023622
+        ],
+        "abs_det_A": 0.7187294462332128,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.013117143091685879,
+            0.1846187120144276
+          ],
+          [
+            0.5550158778244985,
+            -0.741434954321756
+          ]
+        ],
+        "b": [
+          1.6375818564433438,
+          -1.7213210411463091
+        ],
+        "abs_det_A": 0.11219182490053185,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.17717461563565562,
+        -0.16658787289778673
+      ],
+      [
+        1.5037986984006548,
+        0.9588227841832281
+      ]
+    ],
+    "b": [
+      1.5402407409358245,
+      -0.9531166112859879
+    ],
+    "abs_det_A": 0.08063556818265283,
+    "affine_layer_abs_dets": [
+      0.7187294462332128,
+      0.11219182490053185
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 24,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            1.3433886214401753,
+            -1.185058437253474
+          ],
+          [
+            -1.1253403159918083,
+            -0.2160432427572343
+          ]
+        ],
+        "b": [
+          -1.848465182763126,
+          -0.7211869224653067
+        ],
+        "abs_det_A": 1.623824070306689,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.9811252213161872,
+            1.0581089366238459
+          ],
+          [
+            -0.15378101398980504,
+            -0.02733085906666699
+          ]
+        ],
+        "b": [
+          1.624003602690518,
+          -0.0668588791524094
+        ],
+        "abs_det_A": 0.1359020700351442,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        0.12729981343010466,
+        -1.3912880073815541
+      ],
+      [
+        -0.1758311468090259,
+        0.18814413553811668
+      ]
+    ],
+    "b": [
+      -0.95266653648001,
+      0.23711062911637704
+    ],
+    "abs_det_A": 0.22068105252757259,
+    "affine_layer_abs_dets": [
+      1.623824070306689,
+      0.1359020700351442
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 25,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.19943398263700463,
+            0.9663045490757924
+          ],
+          [
+            -1.319344480928018,
+            -1.3434819841698067
+          ]
+        ],
+        "b": [
+          -0.08815039823323412,
+          0.18603051103199109
+        ],
+        "abs_det_A": 1.5428245364228335,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -1.1518771967078374,
+            0.8688178233123809
+          ],
+          [
+            -1.2349286457898634,
+            -1.263118614105034
+          ]
+        ],
+        "b": [
+          -0.5132455269350245,
+          -1.5096598538568022
+        ],
+        "abs_det_A": 2.5278855463060506,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.9165465432708911,
+        -2.2803052683012646
+      ],
+      [
+        1.9127753103793186,
+        0.5036599337088945
+      ]
+    ],
+    "b": [
+      -0.2500804696649429,
+      -1.635779003216777
+    ],
+    "abs_det_A": 3.9000838461096135,
+    "affine_layer_abs_dets": [
+      1.5428245364228335,
+      2.5278855463060506
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 26,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            0.2360026573289562,
+            -0.5669599804679526
+          ],
+          [
+            -0.8305293409030013,
+            1.3899679379904701
+          ]
+        ],
+        "b": [
+          1.8155599669725735,
+          -0.260010199399594
+        ],
+        "abs_det_A": 0.1428407719286265,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.24268132941755605,
+            -1.0785136816589351
+          ],
+          [
+            -0.8573720424870994,
+            -0.3383919127396886
+          ]
+        ],
+        "b": [
+          0.5513704857816921,
+          0.00018395328773745945
+        ],
+        "abs_det_A": 1.0068088773420198,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        0.9530106958097319,
+        -1.6366900399764948
+      ],
+      [
+        0.07870233190808934,
+        0.01574172727881845
+      ]
+    ],
+    "b": [
+      1.2723975496272204,
+      -1.4684410551466922
+    ],
+    "abs_det_A": 0.14381335722412794,
+    "affine_layer_abs_dets": [
+      0.1428407719286265,
+      1.0068088773420198
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 27,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            0.9178267653977508,
+            1.3328769062479076
+          ],
+          [
+            1.4710899812000737,
+            1.1021871089926627
+          ]
+        ],
+        "b": [
+          1.6331719778415867,
+          -1.2758402146420735
+        ],
+        "abs_det_A": 0.9491650338444131,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -0.8559490677692684,
+            0.4156042715367043
+          ],
+          [
+            0.20117666828629588,
+            0.34374074407437627
+          ]
+        ],
+        "b": [
+          1.8229282637118365,
+          1.8079176159315695
+        ],
+        "abs_det_A": 0.3778344521180842,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.17422168421428708,
+        -0.6828010748240414
+      ],
+      [
+        0.6903188954647808,
+        0.6470103521890231
+      ]
+    ],
+    "b": [
+      -0.10522841123211335,
+      1.697915448471202
+    ],
+    "abs_det_A": 0.35862725053224664,
+    "affine_layer_abs_dets": [
+      0.9491650338444131,
+      0.3778344521180842
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 28,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            0.10232458271664702,
+            -0.5134817326745058
+          ],
+          [
+            -0.44213375576368863,
+            -1.053341807276209
+          ]
+        ],
+        "b": [
+          -1.1195413699172345,
+          -1.395563850927445
+        ],
+        "abs_det_A": 0.3348103678709625,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.18001367691713854,
+            1.4647994166135523
+          ],
+          [
+            1.0389745692722698,
+            -0.2286024237174369
+          ]
+        ],
+        "b": [
+          -0.4616060133348876,
+          1.197339839915391
+        ],
+        "abs_det_A": 1.563040905791883,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.6292174431339744,
+        -1.6353681995213767
+      ],
+      [
+        0.2073854874288656,
+        -0.2926979718884267
+      ]
+    ],
+    "b": [
+      -2.7073598864800235,
+      0.35319410609759916
+    ],
+    "abs_det_A": 0.5233223006655429,
+    "affine_layer_abs_dets": [
+      0.3348103678709625,
+      1.563040905791883
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 29,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            0.7451060798035747,
+            0.4106979951225571
+          ],
+          [
+            1.0962085721973258,
+            0.23871345583693038
+          ]
+        ],
+        "b": [
+          1.2669804751106866,
+          0.009184486497075817
+        ],
+        "abs_det_A": 0.2723438155625837,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.77527305156572,
+            -0.24554100161325332
+          ],
+          [
+            1.3562433586753224,
+            1.3912102639223676
+          ]
+        ],
+        "b": [
+          -1.6539149484839957,
+          0.4481887473703621
+        ],
+        "abs_det_A": 1.411581179401106,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        0.3084965134351226,
+        0.25978914690582705
+      ],
+      [
+        2.5356017892828064,
+        0.8891070382029544
+      ]
+    ],
+    "b": [
+      -0.6739142972845433,
+      2.1793001541941237
+    ],
+    "abs_det_A": 0.38443540437442913,
+    "affine_layer_abs_dets": [
+      0.2723438155625837,
+      1.411581179401106
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 30,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            1.152501768254211,
+            -0.974372045501384
+          ],
+          [
+            -0.36817587197184065,
+            0.08029208690088563
+          ]
+        ],
+        "b": [
+          -1.965590494079371,
+          -0.25382271724298855
+        ],
+        "abs_det_A": 0.2662035053473666,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.21058436261076974,
+            0.4731850786928733
+          ],
+          [
+            0.4599050323011342,
+            -0.5380245040355314
+          ]
+        ],
+        "b": [
+          1.0074164702030588,
+          1.4249804736214151
+        ],
+        "abs_det_A": 0.3309197461519585,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        0.0684835213237854,
+        -0.16719449868905029
+      ],
+      [
+        0.728129003871566,
+        -0.49131771729246304
+      ]
+    ],
+    "b": [
+      0.473388726420904,
+      0.6575583555086495
+    ],
+    "abs_det_A": 0.08809199641431208,
+    "affine_layer_abs_dets": [
+      0.2662035053473666,
+      0.3309197461519585
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 31,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.020955871261163272,
+            -0.3122065984847344
+          ],
+          [
+            0.5835926192661076,
+            -0.1123703634033888
+          ]
+        ],
+        "b": [
+          -1.9751406872412347,
+          -1.4588825707021447
+        ],
+        "abs_det_A": 0.1845562854309197,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            1.4244397301737495,
+            -1.2516219574010934
+          ],
+          [
+            1.4767172039977678,
+            -0.037928822607498525
+          ]
+        ],
+        "b": [
+          -1.0518578164256804,
+          1.9606237500753996
+        ],
+        "abs_det_A": 1.7942643555547229,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.7602877120554838,
+        -0.3040742687072375
+      ],
+      [
+        -0.05308087654731183,
+        -0.45677877960416347
+      ]
+    ],
+    "b": [
+      -2.039357225254222,
+      -0.9007667848603731
+    ],
+    "abs_det_A": 0.33114276454228264,
+    "affine_layer_abs_dets": [
+      0.1845562854309197,
+      1.7942643555547229
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 32,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -1.4240610229195925,
+            0.7334882920058456
+          ],
+          [
+            0.9552319198527606,
+            0.9406368188749297
+          ]
+        ],
+        "b": [
+          1.995711787786464,
+          -0.6366746352862855
+        ],
+        "abs_det_A": 2.0401756598451297,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -1.4655193929887953,
+            -1.1228689554531144
+          ],
+          [
+            -0.9527295391176679,
+            -1.295573172761212
+          ]
+        ],
+        "b": [
+          0.012645461144860093,
+          1.1910974420188079
+        ],
+        "abs_det_A": 0.8288971872991965,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        1.0143887778275815,
+        -2.131153198735628
+      ],
+      [
+        0.11917215291519323,
+        -1.9174797902367409
+      ]
+    ],
+    "b": [
+      -2.1972066839851383,
+      0.11458244748375357
+    ],
+    "abs_det_A": 1.6910958660419102,
+    "affine_layer_abs_dets": [
+      2.0401756598451297,
+      0.8288971872991965
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 33,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.4723023077130246,
+            1.355898327015395
+          ],
+          [
+            -0.09012913407142675,
+            1.2981227366723145
+          ]
+        ],
+        "b": [
+          0.06327316587161302,
+          -1.1521847820136868
+        ],
+        "abs_det_A": 0.49090042212228735,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.19022183900843048,
+            1.0288309759173693
+          ],
+          [
+            0.05953223179252998,
+            -0.6205906179014965
+          ]
+        ],
+        "b": [
+          -0.07525549816965826,
+          0.792713453521193
+        ],
+        "abs_det_A": 0.17929849274224854,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.18256985850639057,
+        1.5934703553044263
+      ],
+      [
+        0.02781608454539495,
+        -0.7248831377724692
+      ]
+    ],
+    "b": [
+      -1.2486229539139573,
+      1.511515312104684
+    ],
+    "abs_det_A": 0.08801770577305969,
+    "affine_layer_abs_dets": [
+      0.49090042212228735,
+      0.17929849274224854
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 34,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.6210522544176924,
+            -0.40537680840296186
+          ],
+          [
+            -0.44788165348003117,
+            0.03788463707308898
+          ]
+        ],
+        "b": [
+          0.18726189021176065,
+          -0.7253796388979343
+        ],
+        "abs_det_A": 0.20508917449201436,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -0.8088367779676036,
+            -0.9182576424783183
+          ],
+          [
+            -0.4375767140161644,
+            -0.6778569403049727
+          ]
+        ],
+        "b": [
+          -1.1331714047541013,
+          0.9306090722974232
+        ],
+        "abs_det_A": 0.14646746170335986,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        0.9136006556465872,
+        0.2930958140465608
+      ],
+      [
+        0.5753576919671307,
+        0.15170308758839987
+      ]
+    ],
+    "b": [
+      -0.6185503115529138,
+      1.340371252300985
+    ],
+    "abs_det_A": 0.0300388908106828,
+    "affine_layer_abs_dets": [
+      0.20508917449201436,
+      0.14646746170335986
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 35,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -1.3298509645804937,
+            -1.3154469331535472
+          ],
+          [
+            -1.4558233451165727,
+            -0.8142047481894819
+          ]
+        ],
+        "b": [
+          1.1241810841572892,
+          -1.9019645102524265
+        ],
+        "abs_det_A": 0.8322873848011334,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -1.0337056910877371,
+            -0.257007942793845
+          ],
+          [
+            -0.2710818199087184,
+            0.8058543870229755
+          ]
+        ],
+        "b": [
+          1.518497260633449,
+          1.6354706734667146
+        ],
+        "abs_det_A": 0.902686446917221,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        1.7488326733850372,
+        1.5690420684698911
+      ],
+      [
+        -0.8126832097068085,
+        -0.29953671963082523
+      ]
+    ],
+    "b": [
+      0.8452448621737557,
+      -0.20198082528252237
+    ],
+    "abs_det_A": 0.751294542200161,
+    "affine_layer_abs_dets": [
+      0.8322873848011334,
+      0.902686446917221
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 36,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.8231711171521885,
+            0.3711127341600604
+          ],
+          [
+            -1.4962627289868182,
+            -0.8458086190911686
+          ]
+        ],
+        "b": [
+          -0.5253427565700681,
+          0.6922150638491456
+        ],
+        "abs_det_A": 1.2515273782503187,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -1.3935353400601913,
+            -0.17841671850968854
+          ],
+          [
+            -0.6972936084096159,
+            -0.5792697588782264
+          ]
+        ],
+        "b": [
+          -0.34846744636952165,
+          1.7047623003068528
+        ],
+        "abs_det_A": 0.6828240429747309,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        1.4140763288025822,
+        -0.3662523118929498
+      ],
+      [
+        1.4407317088562954,
+        0.23117681730883982
+      ]
+    ],
+    "b": [
+      0.2601135103605674,
+      1.6701011935596795
+    ],
+    "abs_det_A": 0.8545729843104478,
+    "affine_layer_abs_dets": [
+      1.2515273782503187,
+      0.6828240429747309
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 37,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -1.0773578053422797,
+            1.2481483452080697
+          ],
+          [
+            -0.2596147656380672,
+            0.9708069935553096
+          ]
+        ],
+        "b": [
+          -1.5484797095049165,
+          1.53705623539858
+        ],
+        "abs_det_A": 0.7218687518649506,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            1.4268952308822374,
+            0.5653492010126016
+          ],
+          [
+            -1.2742111228379136,
+            -0.9702912521023821
+          ]
+        ],
+        "b": [
+          0.7013281423940549,
+          -1.9100406673945654
+        ],
+        "abs_det_A": 0.6641297199738593,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -1.6840497147212077,
+        2.329821879354891
+      ],
+      [
+        1.6246832348586033,
+        -2.532370037742389
+      ]
+    ],
+    "b": [
+      -0.6392166556223984,
+      -1.4283428172512413
+    ],
+    "abs_det_A": 0.4794144920339489,
+    "affine_layer_abs_dets": [
+      0.7218687518649506,
+      0.6641297199738593
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 38,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.9310979295809728,
+            0.5349494967177306
+          ],
+          [
+            1.0024297218397145,
+            0.07980737827738071
+          ]
+        ],
+        "b": [
+          -0.3586506437648387,
+          0.30276175054201904
+        ],
+        "abs_det_A": 0.6105577598724047,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -0.40803284796764006,
+            0.3232318526161615
+          ],
+          [
+            -0.47469480413145027,
+            1.1548572971040918
+          ]
+        ],
+        "b": [
+          1.7629917539925333,
+          -1.7235607869603773
+        ],
+        "abs_det_A": 0.31778323096691896,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        0.7039357560514519,
+        -0.19248067993155477
+      ],
+      [
+        1.599650628410258,
+        -0.16177161339826132
+      ]
+    ],
+    "b": [
+      2.007195239122337,
+      -1.2036645729693491
+    ],
+    "abs_det_A": 0.194025017624177,
+    "affine_layer_abs_dets": [
+      0.6105577598724047,
+      0.31778323096691896
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 39,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -1.4180466635483095,
+            0.7751515263322935
+          ],
+          [
+            -0.4282688748069199,
+            0.6516874243860351
+          ]
+        ],
+        "b": [
+          -0.8731491949720103,
+          -0.49705419357724434
+        ],
+        "abs_det_A": 0.5921499058398104,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -0.619459097578039,
+            -1.4447368648587013
+          ],
+          [
+            -1.1045723384598523,
+            -0.6414047320058994
+          ]
+        ],
+        "b": [
+          1.4244896363935062,
+          1.110321201047391
+        ],
+        "abs_det_A": 1.1984923808054728,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        1.497157738030298,
+        -1.4216915113633644
+      ],
+      [
+        1.841028802072748,
+        -1.2742063318915249
+      ]
+    ],
+    "b": [
+      2.683482366055517,
+      2.393590560985783
+    ],
+    "abs_det_A": 0.7096871504436909,
+    "affine_layer_abs_dets": [
+      0.5921499058398104,
+      1.1984923808054728
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 40,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.4697418486637006,
+            -1.2049553444801968
+          ],
+          [
+            1.4348741420906803,
+            0.9249883773695484
+          ]
+        ],
+        "b": [
+          -1.530872120974324,
+          1.400290736867901
+        ],
+        "abs_det_A": 1.294453515790594,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.6455279260133389,
+            0.06566925137665436
+          ],
+          [
+            0.21507012175265539,
+            -1.393150486329826
+          ]
+        ],
+        "b": [
+          -0.6747971182554293,
+          -0.8587670314967757
+        ],
+        "abs_det_A": 0.9134410379539498,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.20900437059873622,
+        -0.7170890301870252
+      ],
+      [
+        -2.100023045460143,
+        -1.5477979004256917
+      ]
+    ],
+    "b": [
+      -1.5710617790998471,
+      -3.138827606013136
+    ],
+    "abs_det_A": 1.1824069630468999,
+    "affine_layer_abs_dets": [
+      1.294453515790594,
+      0.9134410379539498
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 41,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            0.0961413024662412,
+            0.19215781847877267
+          ],
+          [
+            -1.197049388637326,
+            0.17798231014753152
+          ]
+        ],
+        "b": [
+          1.0600575916000183,
+          0.1024698351948139
+        ],
+        "abs_det_A": 0.24713385024543127,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.24765659902970039,
+            -0.18578395003917847
+          ],
+          [
+            1.02262951162787,
+            -0.1403718186672318
+          ]
+        ],
+        "b": [
+          -0.8042926985865644,
+          1.5230524668975702
+        ],
+        "abs_det_A": 0.15522414288612124,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        0.2462025918081011,
+        0.014522895185112787
+      ],
+      [
+        0.266348932905839,
+        0.1715225555004199
+      ]
+    ],
+    "b": [
+      -0.5607996914176449,
+      2.5927147669680854
+    ],
+    "abs_det_A": 0.03836114008249411,
+    "affine_layer_abs_dets": [
+      0.24713385024543127,
+      0.15522414288612124
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 42,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -1.1950324612003294,
+            -0.6764643425737707
+          ],
+          [
+            0.8908824374440258,
+            -0.8756195529521072
+          ]
+        ],
+        "b": [
+          -1.0151855264983571,
+          -1.2881944629572546
+        ],
+        "abs_det_A": 1.6490439917955801,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            1.4081105626758466,
+            0.9768664118186576
+          ],
+          [
+            -0.5001841998720066,
+            0.36418089873622295
+          ]
+        ],
+        "b": [
+          -1.358243217554782,
+          -0.7699304710931596
+        ],
+        "abs_det_A": 1.0014201148126118,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.8124647013384924,
+        -1.8078999168622811
+      ],
+      [
+        0.9221787221632437,
+        0.01947286018709632
+      ]
+    ],
+    "b": [
+      -4.046130583246475,
+      -0.7312865280667362
+    ],
+    "abs_det_A": 1.6513858235949777,
+    "affine_layer_abs_dets": [
+      1.6490439917955801,
+      1.0014201148126118
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 43,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.3871227718769721,
+            0.5213192951636776
+          ],
+          [
+            1.3083621878828948,
+            -0.04235679541912507
+          ]
+        ],
+        "b": [
+          0.865938515101095,
+          -0.0877565328572496
+        ],
+        "abs_det_A": 0.6656771735554403,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.17367043690344763,
+            -0.5526299317158959
+          ],
+          [
+            -0.6135312853951619,
+            -1.1556786646769148
+          ]
+        ],
+        "b": [
+          0.9442640818821841,
+          0.618064893609767
+        ],
+        "abs_det_A": 0.5397629709679269,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.7902718874765318,
+        0.11394538271744852
+      ],
+      [
+        -1.274534334370854,
+        -0.2708948524931032
+      ]
+    ],
+    "b": [
+      1.1431488888918397,
+      0.18820287607575648
+    ],
+    "abs_det_A": 0.35930788890381676,
+    "affine_layer_abs_dets": [
+      0.6656771735554403,
+      0.5397629709679269
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 44,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.8580334949885022,
+            -0.3685497673323219
+          ],
+          [
+            -1.1036249223759913,
+            -0.6039828302952092
+          ]
+        ],
+        "b": [
+          -1.9686925764804553,
+          -0.47967810656293874
+        ],
+        "abs_det_A": 0.11149679042742235,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.58420502954489,
+            -0.10353331682759848
+          ],
+          [
+            1.435001034367048,
+            -0.8693130215887934
+          ]
+        ],
+        "b": [
+          0.2803273079491171,
+          1.5136571763935955
+        ],
+        "abs_det_A": 0.3592866227219835,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.38700553454307585,
+        -0.1527762819857579
+      ],
+      [
+        -0.2718834368587034,
+        -0.0038191581459371404
+      ]
+    ],
+    "b": [
+      -0.8201301314764096,
+      -0.8944282830003671
+    ],
+    "abs_det_A": 0.04005930527700935,
+    "affine_layer_abs_dets": [
+      0.11149679042742235,
+      0.3592866227219835
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 45,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            0.8833026200244447,
+            -0.3148906112585288
+          ],
+          [
+            -0.5617549372342469,
+            -0.744157850121672
+          ]
+        ],
+        "b": [
+          0.4622114050128938,
+          1.8923984098457796
+        ],
+        "abs_det_A": 0.8342079342874195,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -1.1443983777261244,
+            -0.4681675555178906
+          ],
+          [
+            0.3813572379210677,
+            1.1111872443477568
+          ]
+        ],
+        "b": [
+          -1.8867443924480787,
+          0.457509378090752
+        ],
+        "abs_det_A": 1.0931017939249748,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.7478546496321463,
+        0.70875086629636
+      ],
+      [
+        -0.28736107328310534,
+        -0.9469845245932809
+      ]
+    ],
+    "b": [
+      -3.3016579121147887,
+      2.736586017086694
+    ],
+    "abs_det_A": 0.9118741894760257,
+    "affine_layer_abs_dets": [
+      0.8342079342874195,
+      1.0931017939249748
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 46,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.3178174851877391,
+            0.7643879139723913
+          ],
+          [
+            -1.040122225846875,
+            -0.8629693770620918
+          ]
+        ],
+        "b": [
+          -1.6482207702443312,
+          0.2278608043904793
+        ],
+        "abs_det_A": 1.069323615703317,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -0.1592064575339145,
+            0.7764982170959036
+          ],
+          [
+            0.34670575037523665,
+            -0.5148595939158387
+          ]
+        ],
+        "b": [
+          0.3409483750092601,
+          -0.032683110439682306
+        ],
+        "abs_det_A": 0.18724742494857824,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.757054457972844,
+        -0.7917896746623598
+      ],
+      [
+        0.42532775713797455,
+        0.7093257483275526
+      ]
+    ],
+    "b": [
+      0.7802892734289256,
+      -0.7214470505891122
+    ],
+    "abs_det_A": 0.20022809347714918,
+    "affine_layer_abs_dets": [
+      1.069323615703317,
+      0.18724742494857824
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 47,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            0.7332313742460261,
+            0.9158393490869603
+          ],
+          [
+            1.26288058085805,
+            -0.015813107702496998
+          ]
+        ],
+        "b": [
+          1.4693874944512308,
+          -1.0088035453211068
+        ],
+        "abs_det_A": 1.1681903958394013,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.11959053121199537,
+            0.9346425198258443
+          ],
+          [
+            -0.744682164575029,
+            0.24500350915788127
+          ]
+        ],
+        "b": [
+          -1.5139738006519843,
+          -1.4505339145457992
+        ],
+        "abs_det_A": 0.7253117145767631,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        1.2680294178796774,
+        0.09474611143281837
+      ],
+      [
+        -0.23661415295028826,
+        -0.6858834957588664
+      ]
+    ],
+    "b": [
+      -2.2811196572424635,
+      -2.7919209831678033
+    ],
+    "abs_det_A": 0.8473021789583838,
+    "affine_layer_abs_dets": [
+      1.1681903958394013,
+      0.7253117145767631
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 48,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            0.33128112223183814,
+            0.2961589085953089
+          ],
+          [
+            1.192534212122152,
+            -0.05001528579315506
+          ]
+        ],
+        "b": [
+          1.1354280078941676,
+          0.7663812381813182
+        ],
+        "abs_det_A": 0.3697487507309657,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -0.6425361923005017,
+            -0.059639597262825195
+          ],
+          [
+            -1.2977976839524892,
+            0.04881519198107909
+          ]
+        ],
+        "b": [
+          0.329257024511568,
+          -0.19325098139011132
+        ],
+        "abs_det_A": 0.10876565878149433,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.28398237099298806,
+        -0.18730992594301324
+      ],
+      [
+        -0.3717220866609133,
+        -0.3867958514348703
+      ]
+    ],
+    "b": [
+      -0.4460032327070136,
+      -1.6293957730574324
+    ],
+    "abs_det_A": 0.04021596645688802,
+    "affine_layer_abs_dets": [
+      0.3697487507309657,
+      0.10876565878149433
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 49,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            1.0093976274865617,
+            -1.2005024467301062
+          ],
+          [
+            0.6721810920471567,
+            1.1769158374552031
+          ]
+        ],
+        "b": [
+          -0.8429931739332877,
+          1.3947614229689864
+        ],
+        "abs_det_A": 1.994931099726968,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.4445511163830873,
+            1.4736546532649841
+          ],
+          [
+            -1.271668258766081,
+            0.18561697262711574
+          ]
+        ],
+        "b": [
+          -0.11922338741330529,
+          1.4267894518699507
+        ],
+        "abs_det_A": 1.9565160793410485,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        1.4392916363056218,
+        1.200682797452619
+      ],
+      [
+        -1.1588507039854674,
+        1.7450964108630356
+      ]
+    ],
+    "b": [
+      1.5614197171640671,
+      2.7576885063859784
+    ],
+    "abs_det_A": 3.903114773793334,
+    "affine_layer_abs_dets": [
+      1.994931099726968,
+      1.9565160793410485
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 50,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            1.207304313802413,
+            -0.3589465218098282
+          ],
+          [
+            0.7770312990262163,
+            -1.2401721823170802
+          ]
+        ],
+        "b": [
+          1.5772481577539095,
+          0.5618889504411193
+        ],
+        "abs_det_A": 1.2183525434463307,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -1.1814055840213025,
+            1.4207275333221245
+          ],
+          [
+            0.9303736963810234,
+            -0.3194428162271232
+          ]
+        ],
+        "b": [
+          -1.0424963613744591,
+          0.7140001161950762
+        ],
+        "abs_det_A": 0.9444159998609847,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.3223662971595753,
+        -1.3378853402469062
+      ],
+      [
+        0.8750271106315517,
+        0.0622096922265839
+      ]
+    ],
+    "b": [
+      -2.107575039771071,
+      2.001938926098927
+    ],
+    "abs_det_A": 1.1506316355020403,
+    "affine_layer_abs_dets": [
+      1.2183525434463307,
+      0.9444159998609847
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 51,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            1.038272168725645,
+            1.33978387280039
+          ],
+          [
+            -0.7330676113614937,
+            0.3904027124646321
+          ]
+        ],
+        "b": [
+          -0.40996498215102983,
+          -0.7460641967079993
+        ],
+        "abs_det_A": 1.387496434321461,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.788828265018795,
+            -1.464992285914331
+          ],
+          [
+            0.3258230778672755,
+            -0.12164310893987107
+          ]
+        ],
+        "b": [
+          1.4014239544024707,
+          1.1073075451664165
+        ],
+        "abs_det_A": 0.3813727730718922,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        1.8929568291713852,
+        0.48492242572057687
+      ],
+      [
+        0.4274656569872581,
+        0.38904270543000496
+      ]
+    ],
+    "b": [
+      2.1710102817879036,
+      1.064485061220454
+    ],
+    "abs_det_A": 0.5291533627845382,
+    "affine_layer_abs_dets": [
+      1.387496434321461,
+      0.3813727730718922
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 52,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.6540786328755345,
+            1.0696498776949062
+          ],
+          [
+            -0.826762991157073,
+            -0.5232201083433548
+          ]
+        ],
+        "b": [
+          -1.9951749805725068,
+          -0.44793668707132195
+        ],
+        "abs_det_A": 1.2265740255320485,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -1.3446575484853813,
+            -0.5379309263129473
+          ],
+          [
+            -0.7360820973383814,
+            0.1203264072891903
+          ]
+        ],
+        "b": [
+          -0.951407622225227,
+          1.2898547324515341
+        ],
+        "abs_det_A": 0.5577591363071487,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        1.324253152673473,
+        -1.156856504732219
+      ],
+      [
+        0.38197415150564934,
+        -0.8503073212498264
+      ]
+    ],
+    "b": [
+      1.9723784729565974,
+      2.704568704460095
+    ],
+    "abs_det_A": 0.6841328690975379,
+    "affine_layer_abs_dets": [
+      1.2265740255320485,
+      0.5577591363071487
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 53,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            0.7392920598128745,
+            0.7990076154807877
+          ],
+          [
+            -0.15006893223062123,
+            1.2342485406422625
+          ]
+        ],
+        "b": [
+          0.42102594775782576,
+          -1.2596509209405524
+        ],
+        "abs_det_A": 1.032376365631789,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -0.8267586684269281,
+            1.4409633058282378
+          ],
+          [
+            -1.189190461002875,
+            -1.3561177964297144
+          ]
+        ],
+        "b": [
+          -1.2852911449930353,
+          0.6151961416619462
+        ],
+        "abs_det_A": 2.8347619615523993,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.8274599436386427,
+        1.1179203850996817
+      ],
+      [
+        -0.675647915735487,
+        -2.6239586457807818
+      ]
+    ],
+    "b": [
+      -3.4484887521625636,
+      1.8227511319302074
+    ],
+    "abs_det_A": 2.9265412512987075,
+    "affine_layer_abs_dets": [
+      1.032376365631789,
+      2.8347619615523993
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 54,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -1.0463962236712758,
+            1.3384196391849565
+          ],
+          [
+            0.3882935268285226,
+            1.4412092797668805
+          ]
+        ],
+        "b": [
+          1.5666341074408772,
+          -1.070313546474341
+        ],
+        "abs_det_A": 2.0277756299437484,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.2785695736834768,
+            0.5852361425127484
+          ],
+          [
+            -0.6931661822479422,
+            0.856633611904519
+          ]
+        ],
+        "b": [
+          0.8452066750326783,
+          1.747419007254607
+        ],
+        "abs_det_A": 0.6442979626902532,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.06425074412831239,
+        1.2162907477416915
+      ],
+      [
+        1.0579517618471437,
+        0.3068410792975086
+      ]
+    ],
+    "b": [
+      0.6552370992426951,
+      -0.2553853351662485
+    ],
+    "abs_det_A": 1.3064917071657018,
+    "affine_layer_abs_dets": [
+      2.0277756299437484,
+      0.6442979626902532
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 55,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            0.9526778717022468,
+            0.2111943493171724
+          ],
+          [
+            -1.0036170793419927,
+            0.3498070195848286
+          ]
+        ],
+        "b": [
+          -0.9485367890204008,
+          -1.2126047179389174
+        ],
+        "abs_det_A": 0.5452116629598137,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -0.13803600389740756,
+            0.37114028463897597
+          ],
+          [
+            -0.059098759930256595,
+            0.6426896731766933
+          ]
+        ],
+        "b": [
+          -1.8985006113723486,
+          -1.650115516491447
+        ],
+        "abs_det_A": 0.0667803836491157,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.5039865749067902,
+        0.10067505279196946
+      ],
+      [
+        -0.7013164135474517,
+        0.21233603494296435
+      ]
+    ],
+    "b": [
+      -2.217614843636709,
+      -2.373386698376793
+    ],
+    "abs_det_A": 0.036409444022428725,
+    "affine_layer_abs_dets": [
+      0.5452116629598137,
+      0.0667803836491157
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 56,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.5493314441392532,
+            -0.3971666784414052
+          ],
+          [
+            1.0996050435462097,
+            -1.2956810085268378
+          ]
+        ],
+        "b": [
+          -0.03999568673091369,
+          1.5072196056226086
+        ],
+        "abs_det_A": 1.1484848023005167,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -1.2380063501297451,
+            -0.5279415485383286
+          ],
+          [
+            -0.07854812077615181,
+            -0.4767077508285573
+          ]
+        ],
+        "b": [
+          1.5966380611708946,
+          0.13670784183358453
+        ],
+        "abs_det_A": 0.548698406164485,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        0.09954862669999653,
+        1.1757387080237602
+      ],
+      [
+        -0.48104129448826355,
+        0.6488578755925842
+      ]
+    ],
+    "b": [
+      0.8504291227418367,
+      -0.5786538403356094
+    ],
+    "abs_det_A": 0.6301717805264272,
+    "affine_layer_abs_dets": [
+      1.1484848023005167,
+      0.548698406164485
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 57,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.811682800906225,
+            0.1268281591653646
+          ],
+          [
+            0.11401706373331044,
+            1.3405033560631012
+          ]
+        ],
+        "b": [
+          0.033786360546790295,
+          -0.3073831887932079
+        ],
+        "abs_det_A": 1.1025240929802285,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -1.3780898044969985,
+            0.7584797237119396
+          ],
+          [
+            0.902212653874944,
+            -0.5483241683113987
+          ]
+        ],
+        "b": [
+          1.4858759401458141,
+          -1.4550160126694864
+        ],
+        "abs_det_A": 0.07132994146875142,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        1.2050514234133238,
+        0.8419640220727573
+      ],
+      [
+        -0.7948288055551282,
+        -0.6206044177652813
+      ]
+    ],
+    "b": [
+      1.2061713850356555,
+      -1.2559878993078497
+    ],
+    "abs_det_A": 0.07864297902016794,
+    "affine_layer_abs_dets": [
+      1.1025240929802285,
+      0.07132994146875142
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 58,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.9268671096625606,
+            0.4575570757248588
+          ],
+          [
+            -0.5725108827898882,
+            -0.6935395787473384
+          ]
+        ],
+        "b": [
+          0.6719771359662152,
+          -0.5373365579607898
+        ],
+        "abs_det_A": 0.904775430140134,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.5595466535081872,
+            -0.8946635732518209
+          ],
+          [
+            -0.5350785835098134,
+            -1.4077206230824943
+          ]
+        ],
+        "b": [
+          -0.4678363692143095,
+          1.9580885365679412
+        ],
+        "abs_det_A": 1.2664006812136825,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.006420757336136007,
+        0.8765091282244933
+      ],
+      [
+        1.301882116782568,
+        0.731480975972824
+      ]
+    ],
+    "b": [
+      0.3889016334336367,
+      2.3549477166817234
+    ],
+    "abs_det_A": 1.1458082210748683,
+    "affine_layer_abs_dets": [
+      0.904775430140134,
+      1.2664006812136825
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 59,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.7460569278633248,
+            0.5127803490887151
+          ],
+          [
+            -0.8523500049336492,
+            -1.4144160290867784
+          ]
+        ],
+        "b": [
+          -1.5653132140743926,
+          0.614624944111517
+        ],
+        "abs_det_A": 1.4923032104567697,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.5006808727586192,
+            -0.4027812980429173
+          ],
+          [
+            -0.16372422278575716,
+            0.0019450863147829622
+          ]
+        ],
+        "b": [
+          1.739142527046032,
+          1.905464814676844
+        ],
+        "abs_det_A": 0.06497118746103864,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.03022579239616141,
+        0.8264396368834885
+      ],
+      [
+        0.12048969633835091,
+        -0.08670572537594547
+      ]
+    ],
+    "b": [
+      0.7078607080838735,
+      2.162940002634965
+    ],
+    "abs_det_A": 0.09695671163529658,
+    "affine_layer_abs_dets": [
+      1.4923032104567697,
+      0.06497118746103864
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 60,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.2056723856753837,
+            0.7649135517518997
+          ],
+          [
+            0.4676284857740485,
+            1.0673124384849983
+          ]
+        ],
+        "b": [
+          0.21704447366933932,
+          -0.8412444028763941
+        ],
+        "abs_det_A": 0.5772120614380108,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -1.4629920637383416,
+            0.6377894628351308
+          ],
+          [
+            0.2990347507807294,
+            0.6606673119090161
+          ]
+        ],
+        "b": [
+          -0.8534313331388135,
+          -1.818894868542825
+        ],
+        "abs_det_A": 1.1572722471637127,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        0.5991455887214537,
+        -0.4383418288403357
+      ],
+      [
+        0.24744366407550772,
+        0.9338741730178728
+      ]
+    ],
+    "b": [
+      -1.707502491418918,
+      -2.3097737067576323
+    ],
+    "abs_det_A": 0.6679914994303658,
+    "affine_layer_abs_dets": [
+      0.5772120614380108,
+      1.1572722471637127
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 61,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            1.4570819968911324,
+            0.04556936453467375
+          ],
+          [
+            -0.6725412568345699,
+            -0.5084850244324779
+          ]
+        ],
+        "b": [
+          -1.3836829908669825,
+          -0.33611856437817433
+        ],
+        "abs_det_A": 0.7102570970920089,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.6483480456089086,
+            1.2345757058848532
+          ],
+          [
+            -0.545860910630773,
+            0.9850909517019444
+          ]
+        ],
+        "b": [
+          1.435194441030705,
+          1.6581496648952259
+        ],
+        "abs_det_A": 1.3125884123399107,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        0.11439316808306599,
+        -0.5982184495349077
+      ],
+      [
+        -1.457878412440687,
+        -0.5257785314661388
+      ]
+    ],
+    "b": [
+      0.12312246428161933,
+      2.0823407658462014
+    ],
+    "abs_det_A": 0.9322752354251538,
+    "affine_layer_abs_dets": [
+      0.7102570970920089,
+      1.3125884123399107
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 62,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -1.0791174277208981,
+            -0.7372972424231589
+          ],
+          [
+            -1.1106168651089452,
+            -0.5193110005389076
+          ]
+        ],
+        "b": [
+          1.3969518297521724,
+          0.09082624021150787
+        ],
+        "abs_det_A": 0.25845720094476676,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -0.893529777157006,
+            1.110344795759885
+          ],
+          [
+            -0.14369675642263546,
+            -0.5722795359692959
+          ]
+        ],
+        "b": [
+          1.3229865382460457,
+          0.08581207130461177
+        ],
+        "abs_det_A": 0.6709017519076089,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.26894410153918,
+        0.08218277389160522
+      ],
+      [
+        0.7906489783668521,
+        0.4031382806677183
+      ]
+    ],
+    "b": [
+      0.17561692424580033,
+      -0.16690337411151862
+    ],
+    "abs_det_A": 0.17339938890698095,
+    "affine_layer_abs_dets": [
+      0.25845720094476676,
+      0.6709017519076089
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 63,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            1.3629321914780044,
+            -0.15859218508462591
+          ],
+          [
+            0.2645539386052298,
+            -0.18958903739310884
+          ]
+        ],
+        "b": [
+          -1.51154985836734,
+          1.1383370682525569
+        ],
+        "abs_det_A": 0.21644081501824777,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.3256502193469779,
+            -0.5909341363360034
+          ],
+          [
+            0.8953128767788803,
+            0.4167527357331364
+          ]
+        ],
+        "b": [
+          -1.8672836381287512,
+          1.4176236610552526
+        ],
+        "abs_det_A": 0.6647865613947793,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        0.2875052138858999,
+        0.060389054211146084
+      ],
+      [
+        1.3305043188694217,
+        -0.22100137546135507
+      ]
+    ],
+    "b": [
+      -3.0322024133470515,
+      0.5387186963463715
+    ],
+    "abs_det_A": 0.14388694516146444,
+    "affine_layer_abs_dets": [
+      0.21644081501824777,
+      0.6647865613947793
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 64,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.8532663370173466,
+            1.372423578645166
+          ],
+          [
+            -0.9807313788239541,
+            0.7395306705569573
+          ]
+        ],
+        "b": [
+          1.951491289179084,
+          1.3148677300221085
+        ],
+        "abs_det_A": 0.7149622422370621,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.0067434705931610495,
+            0.4905963272719436
+          ],
+          [
+            -0.8298144041718938,
+            -1.4851212184671516
+          ]
+        ],
+        "b": [
+          1.9096931491289784,
+          1.2459573747299637
+        ],
+        "abs_det_A": 0.3970890277400745,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.4868971889431918,
+        0.37206592892415546
+      ],
+      [
+        2.164557677359984,
+        -2.237149544736275
+      ]
+    ],
+    "b": [
+      2.5679222524476115,
+      -2.3261561719803905
+    ],
+    "abs_det_A": 0.28390366164077857,
+    "affine_layer_abs_dets": [
+      0.7149622422370621,
+      0.3970890277400745
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 65,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -1.402515903797855,
+            1.1255196876094842
+          ],
+          [
+            -0.7688222131445857,
+            0.550076584981972
+          ]
+        ],
+        "b": [
+          -0.9654093404641078,
+          -1.2516275533096786
+        ],
+        "abs_det_A": 0.09383337842169828,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            1.094143806339411,
+            -1.4026332109049495
+          ],
+          [
+            1.1805683784539949,
+            0.7824616008043677
+          ]
+        ],
+        "b": [
+          1.5096456374678873,
+          0.3392794994022026
+        ],
+        "abs_det_A": 2.512029929582296,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.45617851999490466,
+        0.45992470847409317
+      ],
+      [
+        -2.257339785933642,
+        1.7591667577691692
+      ]
+    ],
+    "b": [
+      2.208923360972728,
+      -1.779802739187395
+    ],
+    "abs_det_A": 0.23571225498912768,
+    "affine_layer_abs_dets": [
+      0.09383337842169828,
+      2.512029929582296
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 66,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            0.008085665377852713,
+            1.4501125913247348
+          ],
+          [
+            -0.9048462677447024,
+            0.07090171195973527
+          ]
+        ],
+        "b": [
+          0.6096561134036071,
+          0.6388800832584263
+        ],
+        "abs_det_A": 1.3127022535874087,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -1.3349235313959098,
+            -1.2598461623506498
+          ],
+          [
+            1.4376591371667224,
+            -0.7248474721351886
+          ]
+        ],
+        "b": [
+          0.6750877485914857,
+          0.026533993223705643
+        ],
+        "abs_det_A": 2.7788452939539456,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        1.1291733529555832,
+        -2.0251146710494523
+      ],
+      [
+        0.6674999605562502,
+        2.0333746901544467
+      ]
+    ],
+    "b": [
+      -0.9436471643457547,
+      0.4399210618405639
+    ],
+    "abs_det_A": 3.6477964797441094,
+    "affine_layer_abs_dets": [
+      1.3127022535874087,
+      2.7788452939539456
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 67,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -1.294684985253371,
+            -1.0108182285270169
+          ],
+          [
+            0.6374142516423147,
+            -0.3274485784091512
+          ]
+        ],
+        "b": [
+          0.21906089882178925,
+          -0.8408078707560609
+        ],
+        "abs_det_A": 1.0682527025918478,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -1.4633246524241845,
+            0.9646058049252799
+          ],
+          [
+            0.8024312822183881,
+            -0.4576862130913708
+          ]
+        ],
+        "b": [
+          -1.8041204277457652,
+          0.1949764246643766
+        ],
+        "abs_det_A": 0.10428635419022128,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        2.5093979433209794,
+        1.1632964333753288
+      ],
+      [
+        -1.3306314477903987,
+        -0.6612434673724166
+      ]
+    ],
+    "b": [
+      -2.9357257943320505,
+      0.7555839128936178
+    ],
+    "abs_det_A": 0.11140417970715455,
+    "affine_layer_abs_dets": [
+      1.0682527025918478,
+      0.10428635419022128
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 68,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.8778309983790119,
+            -0.9320626788150081
+          ],
+          [
+            0.9839343464956394,
+            -0.7740821394413353
+          ]
+        ],
+        "b": [
+          0.4454923370935959,
+          0.20275061620184953
+        ],
+        "abs_det_A": 1.596601780065969,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.9876750155989455,
+            1.178064626752624
+          ],
+          [
+            -1.4683857323688878,
+            -0.14703301032237048
+          ]
+        ],
+        "b": [
+          -1.699387864736377,
+          -0.8484592656914183
+        ],
+        "abs_det_A": 1.5846324589683252,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        0.29212650363624393,
+        -1.8324938075146375
+      ],
+      [
+        1.1443236845260492,
+        1.4824431664443236
+      ]
+    ],
+    "b": [
+      -1.0205328847485524,
+      -1.532424890804199
+    ],
+    "abs_det_A": 2.5300270047391415,
+    "affine_layer_abs_dets": [
+      1.596601780065969,
+      1.5846324589683252
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 69,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -1.3555212835816106,
+            -1.346823046738605
+          ],
+          [
+            -1.316837732115642,
+            -0.9974395648131618
+          ]
+        ],
+        "b": [
+          1.984596480046649,
+          1.2239813277344695
+        ],
+        "abs_det_A": 0.4214968472377239,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.905944636086776,
+            1.4645145110519207
+          ],
+          [
+            1.317041322146625,
+            0.46155395358874163
+          ]
+        ],
+        "b": [
+          0.528131502915091,
+          -1.0385107017622235
+        ],
+        "abs_det_A": 1.5106837994203746,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -3.156555203346281,
+        -2.6809118315170766
+      ],
+      [
+        -2.3930692050190214,
+        -2.234193780779507
+      ]
+    ],
+    "b": [
+      4.118604454533776,
+      2.1402182911805947
+    ],
+    "abs_det_A": 0.6367484586287939,
+    "affine_layer_abs_dets": [
+      0.4214968472377239,
+      1.5106837994203746
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 70,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -1.4110486815446,
+            0.3324295637366601
+          ],
+          [
+            -0.9364397425365755,
+            -0.43892476482281007
+          ]
+        ],
+        "b": [
+          -0.4986958262980652,
+          -0.9664527401279015
+        ],
+        "abs_det_A": 0.930644465777604,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            1.1852275263618681,
+            0.9620220360022604
+          ],
+          [
+            1.3780307641109486,
+            -1.3911773673375016
+          ]
+        ],
+        "b": [
+          0.04732334616718381,
+          1.8268282077818219
+        ],
+        "abs_det_A": 2.974557671183808,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -2.5732894061117504,
+        -0.028250626389496436
+      ],
+      [
+        -0.6417147171344106,
+        1.068720364514528
+      ]
+    ],
+    "b": [
+      -1.473493507200867,
+      2.484117195876607
+    ],
+    "abs_det_A": 2.7682556348235288,
+    "affine_layer_abs_dets": [
+      0.930644465777604,
+      2.974557671183808
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 71,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            0.24201971832553992,
+            1.4504519168955836
+          ],
+          [
+            1.399647796958817,
+            0.7630738105144186
+          ]
+        ],
+        "b": [
+          1.8911235068805556,
+          1.272420617846199
+        ],
+        "abs_det_A": 1.8454429213953008,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -1.1456874793289153,
+            0.04174814900343149
+          ],
+          [
+            1.2009250253449588,
+            0.48597371605111483
+          ]
+        ],
+        "b": [
+          1.8967926945899047,
+          -0.22833253448738056
+        ],
+        "abs_det_A": 0.6069103986627589,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.2188462562565206,
+        -1.6299076814139224
+      ],
+      [
+        0.9708395774149113,
+        2.112717820376449
+      ]
+    ],
+    "b": [
+      -0.2167226235588564,
+      2.661127986978371
+    ],
+    "abs_det_A": 1.1200184991333884,
+    "affine_layer_abs_dets": [
+      1.8454429213953008,
+      0.6069103986627589
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 72,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -1.1523981395935428,
+            0.3663370994562847
+          ],
+          [
+            -1.2821275959219103,
+            0.3340609440511826
+          ]
+        ],
+        "b": [
+          -0.17015748747511328,
+          1.7054160969783467
+        ],
+        "abs_det_A": 0.08471969418744663,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -0.8703516504210282,
+            0.9237869316237619
+          ],
+          [
+            -0.07275153781382127,
+            1.189112215905058
+          ]
+        ],
+        "b": [
+          0.6309570178079578,
+          1.2078708317350166
+        ],
+        "abs_det_A": 0.9677388597608333,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.18142109504948944,
+        -0.010240964641850536
+      ],
+      [
+        -1.4407548498305107,
+        0.3705843620843378
+      ]
+    ],
+    "b": [
+      2.3544949712328167,
+      3.2481811647374443
+    ],
+    "abs_det_A": 0.0819865402522461,
+    "affine_layer_abs_dets": [
+      0.08471969418744663,
+      0.9677388597608333
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 73,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.1436921840854899,
+            -0.46713790355316065
+          ],
+          [
+            0.4392357867739567,
+            -0.19823636637126985
+          ]
+        ],
+        "b": [
+          0.16761181207352216,
+          1.7519338652385614
+        ],
+        "abs_det_A": 0.23366870104816834,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -0.06547504994799702,
+            1.449493097670767
+          ],
+          [
+            0.004707991623102981,
+            1.094999111667994
+          ]
+        ],
+        "b": [
+          -1.2815926472288481,
+          0.24122977482846197
+        ],
+        "abs_det_A": 0.07851932289105386,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        0.6460774941089732,
+        -0.25675636719474315
+      ],
+      [
+        0.48028629473129514,
+        -0.21926792641359366
+      ]
+    ],
+    "b": [
+      1.246849006242726,
+      2.160384915972937
+    ],
+    "abs_det_A": 0.018347508187134265,
+    "affine_layer_abs_dets": [
+      0.23366870104816834,
+      0.07851932289105386
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 74,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            0.7836226601952618,
+            0.6287548757399257
+          ],
+          [
+            -1.1646006022873698,
+            0.9208375096289396
+          ]
+        ],
+        "b": [
+          -1.1220043738649776,
+          -0.1904529573160274
+        ],
+        "abs_det_A": 1.4538374458808476,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.34757084246590253,
+            0.9983227529783041
+          ],
+          [
+            -1.0167931804814212,
+            0.2919783792880195
+          ]
+        ],
+        "b": [
+          1.4379855619981927,
+          0.6934226721451822
+        ],
+        "abs_det_A": 1.1165709384187439,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.8902828912162792,
+        1.1378298995239184
+      ],
+      [
+        -1.1368203733309699,
+        -0.37044902619772596
+      ]
+    ],
+    "b": [
+      0.857876035862919,
+      1.7786609221536744
+    ],
+    "abs_det_A": 1.623312641255488,
+    "affine_layer_abs_dets": [
+      1.4538374458808476,
+      1.1165709384187439
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 75,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.8760408289073078,
+            1.1578070476019189
+          ],
+          [
+            1.0895701287299775,
+            0.8094228151683263
+          ]
+        ],
+        "b": [
+          1.7355858269615356,
+          -0.027941860502102678
+        ],
+        "abs_det_A": 1.9705994078366451,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.00462475567388454,
+            0.15088025564902896
+          ],
+          [
+            -0.5468212909620065,
+            1.3119641011232037
+          ]
+        ],
+        "b": [
+          -1.8507316396802085,
+          -1.6544059827183042
+        ],
+        "abs_det_A": 0.08857204959528198,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        0.1603431447762808,
+        0.12748049599341427
+      ],
+      [
+        1.9085146715484387,
+        0.4288201316763356
+      ]
+    ],
+    "b": [
+      -1.8469208543353213,
+      -2.640119983090124
+    ],
+    "abs_det_A": 0.17454002848334063,
+    "affine_layer_abs_dets": [
+      1.9705994078366451,
+      0.08857204959528198
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 76,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            0.019064949384889562,
+            0.7927515445236875
+          ],
+          [
+            -0.15003827339112208,
+            1.3130002022977267
+          ]
+        ],
+        "b": [
+          -1.051588763728649,
+          0.7023107208163339
+        ],
+        "abs_det_A": 0.14397535536763523,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.4267292099149915,
+            0.191548487809305
+          ],
+          [
+            -0.5142321414414927,
+            0.13149053268954458
+          ]
+        ],
+        "b": [
+          1.2334816785091842,
+          1.2623278691327413
+        ],
+        "abs_det_A": 0.15461124020196926,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.020604033593505294,
+        0.5897934434969234
+      ],
+      [
+        -0.029532422240683594,
+        -0.23501122834985871
+      ]
+    ],
+    "b": [
+      0.9192645927524069,
+      1.8954358218144542
+    ],
+    "abs_det_A": 0.022260208251909334,
+    "affine_layer_abs_dets": [
+      0.14397535536763523,
+      0.15461124020196926
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 77,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.8984355459458427,
+            -0.9628081238439354
+          ],
+          [
+            1.4677331363659385,
+            1.421450495470081
+          ]
+        ],
+        "b": [
+          -1.474356321659808,
+          1.8106557669767986
+        ],
+        "abs_det_A": 0.1360637353954133,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -0.6206938889366512,
+            -1.0255533427986012
+          ],
+          [
+            1.1842261342129756,
+            0.5759103945881687
+          ]
+        ],
+        "b": [
+          -1.6494932047081368,
+          -0.5069644667893058
+        ],
+        "abs_det_A": 0.8570230080756103,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.9475851713643149,
+        -0.8601641885635763
+      ],
+      [
+        -0.21866808370033142,
+        -0.32155442675482915
+      ]
+    ],
+    "b": [
+      -2.5912933202193953,
+      -1.210160276818011
+    ],
+    "abs_det_A": 0.11660975179858099,
+    "affine_layer_abs_dets": [
+      0.1360637353954133,
+      0.8570230080756103
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 78,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.7200867147095216,
+            0.8342101871871481
+          ],
+          [
+            -0.41115100519000247,
+            0.9303045639513012
+          ]
+        ],
+        "b": [
+          0.14292357898476515,
+          -0.6310868683225963
+        ],
+        "abs_det_A": 0.32691360013323045,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            1.1968327941841674,
+            -0.1257234822948068
+          ],
+          [
+            -0.5159512808904592,
+            1.2333293502823355
+          ]
+        ],
+        "b": [
+          -0.06063394934801192,
+          0.6566308583322007
+        ],
+        "abs_det_A": 1.4112218207197367,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.8101320586991969,
+        0.8814489798933824
+      ],
+      [
+        -0.13555493929233464,
+        0.7169601088116709
+      ]
+    ],
+    "b": [
+      0.18976411575916713,
+      -0.19544870259445912
+    ],
+    "abs_det_A": 0.4613476059980614,
+    "affine_layer_abs_dets": [
+      0.32691360013323045,
+      1.4112218207197367
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 79,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -1.4682561971259784,
+            -0.43948842596982063
+          ],
+          [
+            -1.1869108735145133,
+            0.059520794202015725
+          ]
+        ],
+        "b": [
+          -1.7805748991073411,
+          1.4347977958263343
+        ],
+        "abs_det_A": 0.609025366512328,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.4212552473164308,
+            -0.2928200054769441
+          ],
+          [
+            0.2757074737474752,
+            0.13674877369644411
+          ]
+        ],
+        "b": [
+          -1.2664472296218152,
+          0.24392357156195432
+        ],
+        "abs_det_A": 0.13833880245648428,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.270959378961022,
+        -0.202565684858852
+      ],
+      [
+        -0.5671178133637634,
+        -0.11303084804882943
+      ]
+    ],
+    "b": [
+      -2.4366612475428817,
+      -0.05078739660748399
+    ],
+    "abs_det_A": 0.08425183986893688,
+    "affine_layer_abs_dets": [
+      0.609025366512328,
+      0.13833880245648428
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 80,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.9174374580862237,
+            0.5331296569141339
+          ],
+          [
+            -1.1545004748530017,
+            0.5211138717638701
+          ]
+        ],
+        "b": [
+          -0.34292829842806904,
+          -1.8308435747029694
+        ],
+        "abs_det_A": 0.1374090561810702,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.10690024381732455,
+            -0.7471651005902895
+          ],
+          [
+            1.0935166658311948,
+            1.047991902071526
+          ]
+        ],
+        "b": [
+          -1.828656791611429,
+          1.7005759219072245
+        ],
+        "abs_det_A": 0.9290680794729506,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        0.7645281754685161,
+        -0.3323664081050798
+      ],
+      [
+        -2.2131402988587707,
+        1.129109282550148
+      ]
+    ],
+    "b": [
+      -0.49737348666722037,
+      -0.5931311278573994
+    ],
+    "abs_det_A": 0.12766236792833766,
+    "affine_layer_abs_dets": [
+      0.1374090561810702,
+      0.9290680794729506
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 81,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            0.5096206922536979,
+            0.6829393184386459
+          ],
+          [
+            -0.28006088032592835,
+            0.38978153751066724
+          ]
+        ],
+        "b": [
+          1.9993033038013452,
+          -0.9307284584152242
+        ],
+        "abs_det_A": 0.38990532370501363,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            1.1393619690219179,
+            1.040108913148274
+          ],
+          [
+            -1.1498091181690977,
+            -0.4830589802296783
+          ]
+        ],
+        "b": [
+          -1.5433922621351934,
+          -1.1557451047960106
+        ],
+        "abs_det_A": 0.6455476813586295,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        0.28934861752933594,
+        1.1835303379242255
+      ],
+      [
+        -0.4506805955084806,
+        -0.9735373275192031
+      ]
+    ],
+    "b": [
+      -0.23352107856249416,
+      -3.0049655334996004
+    ],
+    "abs_det_A": 0.2517024776671574,
+    "affine_layer_abs_dets": [
+      0.38990532370501363,
+      0.6455476813586295
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 82,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            0.06840099582514236,
+            -0.995978127788805
+          ],
+          [
+            -0.6674177002408138,
+            -0.744253086923638
+          ]
+        ],
+        "b": [
+          -1.8752074552173799,
+          1.1851890551172337
+        ],
+        "abs_det_A": 0.7156410838304686,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.6112443310483138,
+            -1.4350781715262335
+          ],
+          [
+            0.3988363821581369,
+            0.05389967893745862
+          ]
+        ],
+        "b": [
+          -1.751284679795317,
+          -0.22043999267784287
+        ],
+        "abs_det_A": 0.605307259241483,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        0.9996062938420085,
+        0.45927537467610924
+      ],
+      [
+        -0.008692794049243259,
+        -0.43734731562931806
+      ]
+    ],
+    "b": [
+      -4.59833354846702,
+      -0.9044596403617002
+    ],
+    "abs_det_A": 0.4331827430540253,
+    "affine_layer_abs_dets": [
+      0.7156410838304686,
+      0.605307259241483
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 83,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            1.4911900316945497,
+            0.2673846715407999
+          ],
+          [
+            0.13193087412564553,
+            -0.8931895228685235
+          ]
+        ],
+        "b": [
+          1.9078756026403711,
+          -0.6721916671052961
+        ],
+        "abs_det_A": 1.3671916063597296,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            1.24528336531947,
+            -1.4513899790610756
+          ],
+          [
+            -1.2302330784436784,
+            1.2473175577180755
+          ]
+        ],
+        "b": [
+          0.8698619626083897,
+          1.2292735705238425
+        ],
+        "abs_det_A": 0.2322841560653857,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        1.6654709923647057,
+        1.6293360065048867
+      ],
+      [
+        -1.6699516075341012,
+        -1.44303644184203
+      ]
+    ],
+    "b": [
+      4.221319963320288,
+      -1.9562945739322286
+    ],
+    "abs_det_A": 0.31757694846294876,
+    "affine_layer_abs_dets": [
+      1.3671916063597296,
+      0.2322841560653857
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 84,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.5168006563362321,
+            1.4981309813909816
+          ],
+          [
+            -1.323981313143262,
+            0.033091417923031274
+          ]
+        ],
+        "b": [
+          -1.2223839906321814,
+          -0.061830018949604604
+        ],
+        "abs_det_A": 1.9663957575009166,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -1.414556338172082,
+            1.276351785526003
+          ],
+          [
+            0.24445270701221933,
+            -0.8009946216004716
+          ]
+        ],
+        "b": [
+          -0.177044632153335,
+          -1.0269569593475052
+        ],
+        "abs_det_A": 0.8210443697549847,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.9588222690415555,
+        -2.0769543847869265
+      ],
+      [
+        0.934168591500199,
+        0.3397161260824167
+      ]
+    ],
+    "b": [
+      1.4731695343900657,
+      -1.2762465222338528
+    ],
+    "abs_det_A": 1.6144981654062158,
+    "affine_layer_abs_dets": [
+      1.9663957575009166,
+      0.8210443697549847
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 85,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.09297183608786552,
+            -1.1015014434255668
+          ],
+          [
+            -0.25937887121137226,
+            0.8604105917477778
+          ]
+        ],
+        "b": [
+          -0.8858988732425783,
+          -1.4939670610041946
+        ],
+        "abs_det_A": 0.36570015353765845,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.5863444125800803,
+            -1.1357372744089105
+          ],
+          [
+            -0.2077454200374429,
+            -0.5387431692667353
+          ]
+        ],
+        "b": [
+          1.5694423622448315,
+          -0.2870276648534582
+        ],
+        "abs_det_A": 0.5518332642394943,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        0.24007273561143272,
+        -1.6230595971456534
+      ],
+      [
+        0.15905306825696897,
+        -0.23470844903257088
+      ]
+    ],
+    "b": [
+      2.7467545857296516,
+      0.7018783179045285
+    ],
+    "abs_det_A": 0.20180550945957032,
+    "affine_layer_abs_dets": [
+      0.36570015353765845,
+      0.5518332642394943
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 86,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -1.1582613984846495,
+            0.6871947497726767
+          ],
+          [
+            0.5971086503913527,
+            -0.8846087134463516
+          ]
+        ],
+        "b": [
+          -1.981108037512675,
+          -1.342302767265962
+        ],
+        "abs_det_A": 0.6142781959552914,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.43798295278011734,
+            0.20522411294256448
+          ],
+          [
+            -0.30677950638883367,
+            -0.005679793895580598
+          ]
+        ],
+        "b": [
+          0.9649895852812307,
+          0.6122401666793356
+        ],
+        "abs_det_A": 0.06047089916603731,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.38475765429263775,
+        0.11943654712214008
+      ],
+      [
+        0.35193940602886975,
+        -0.20579287095764984
+      ]
+    ],
+    "b": [
+      -0.17817485747750084,
+      1.227627515593963
+    ],
+    "abs_det_A": 0.03714595484750774,
+    "affine_layer_abs_dets": [
+      0.6142781959552914,
+      0.06047089916603731
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 87,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.29625123705082856,
+            -0.18481018386507486
+          ],
+          [
+            -1.2400026365981849,
+            0.9240428523629456
+          ]
+        ],
+        "b": [
+          -1.1421743897615433,
+          0.49475199795453806
+        ],
+        "abs_det_A": 0.502913953363387,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -0.11527363325378626,
+            0.14743048243217727
+          ],
+          [
+            0.38222588166044424,
+            -1.1783168782933449
+          ]
+        ],
+        "b": [
+          -1.2890443179869204,
+          1.0235464017742117
+        ],
+        "abs_det_A": 0.07947712155386974,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.1486642304800645,
+        0.15753582486830164
+      ],
+      [
+        1.34788114555714,
+        -1.1594545246732413
+      ]
+    ],
+    "b": [
+      -1.08444020052696,
+      0.004003158878439272
+    ],
+    "abs_det_A": 0.03997015340259908,
+    "affine_layer_abs_dets": [
+      0.502913953363387,
+      0.07947712155386974
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 88,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -1.070741167468722,
+            -1.0408009625934023
+          ],
+          [
+            -0.22953170611955676,
+            0.020368398447645486
+          ]
+        ],
+        "b": [
+          0.32451826851649557,
+          0.6746379892379171
+        ],
+        "abs_det_A": 0.2607061034082407,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -0.07706035288033242,
+            -0.12337110593277512
+          ],
+          [
+            -0.22379819397277645,
+            1.005364123091212
+          ]
+        ],
+        "b": [
+          0.9372850979174276,
+          -1.9359539030824733
+        ],
+        "abs_det_A": 0.10508394479481394,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        0.11082927263924527,
+        0.07769161761307179
+      ],
+      [
+        0.008866997047284164,
+        0.25340703275762017
+      ]
+    ],
+    "b": [
+      0.8290467707928866,
+      -1.3303236750334406
+    ],
+    "abs_det_A": 0.027396025778222616,
+    "affine_layer_abs_dets": [
+      0.2607061034082407,
+      0.10508394479481394
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 89,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.16020361595621146,
+            1.2790491401163928
+          ],
+          [
+            0.6067636490603876,
+            1.3071636199339185
+          ]
+        ],
+        "b": [
+          -0.06910710632044736,
+          0.4054376287914354
+        ],
+        "abs_det_A": 0.9854928621443981,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.6045361668243237,
+            0.8445892353491145
+          ],
+          [
+            -0.6521249754083479,
+            0.8902612379690691
+          ]
+        ],
+        "b": [
+          -1.8574467775751833,
+          1.424577688060075
+        ],
+        "abs_det_A": 1.0889728506062946,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        0.4156171664959871,
+        1.87724778658208
+      ],
+      [
+        0.6446509364829033,
+        0.3296172134660288
+      ]
+    ],
+    "b": [
+      -1.556796265847751,
+      1.8305895633969458
+    ],
+    "abs_det_A": 1.0731749713415413,
+    "affine_layer_abs_dets": [
+      0.9854928621443981,
+      1.0889728506062946
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 90,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.710251258219828,
+            -0.9318265403223321
+          ],
+          [
+            -0.032988117078120105,
+            -0.9348966635328061
+          ]
+        ],
+        "b": [
+          -0.6297330648982884,
+          -1.7401019566012441
+        ],
+        "abs_det_A": 0.6332723285710421,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -0.7068664590582248,
+            -0.6231293425860642
+          ],
+          [
+            0.522578068661395,
+            -0.01261743846164709
+          ]
+        ],
+        "b": [
+          1.7888888140850923,
+          -0.6115525859143123
+        ],
+        "abs_det_A": 0.33455257242263975,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        0.5226086556475398,
+        1.2412384703472255
+      ],
+      [
+        -0.3707455052476447,
+        -0.47515611264894947
+      ]
+    ],
+    "b": [
+      3.3183345840712857,
+      -0.9186816453866729
+    ],
+    "abs_det_A": 0.21186288656751728,
+    "affine_layer_abs_dets": [
+      0.6332723285710421,
+      0.33455257242263975
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 91,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.3272618816995452,
+            -0.6937792845347457
+          ],
+          [
+            -0.031857655214146074,
+            0.5125362108663691
+          ]
+        ],
+        "b": [
+          -0.17785234621241086,
+          -0.4013032959474283
+        ],
+        "abs_det_A": 0.18983574604870773,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -0.7170624379718907,
+            1.0065425132090935
+          ],
+          [
+            -1.290253261106718,
+            -0.6080250329467635
+          ]
+        ],
+        "b": [
+          -0.6316463895963942,
+          -1.756289578382522
+        ],
+        "abs_det_A": 1.7346866725833299,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        0.202601118402549,
+        1.01337255097898
+      ],
+      [
+        0.4416209619599469,
+        0.5835161378608077
+      ]
+    ],
+    "b": [
+      -0.9080439806843192,
+      -1.2828125589463981
+    ],
+    "abs_det_A": 0.3293055386506068,
+    "affine_layer_abs_dets": [
+      0.18983574604870773,
+      1.7346866725833299
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 92,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            1.3508625199268742,
+            1.3270036409339268
+          ],
+          [
+            0.9364147837220242,
+            -1.3443218529639176
+          ]
+        ],
+        "b": [
+          1.631989414914039,
+          -1.116411864941592
+        ],
+        "abs_det_A": 3.0586198333110843,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.20456010250061407,
+            -0.3078999125995616
+          ],
+          [
+            -1.0914688883913009,
+            -0.3608635106618321
+          ]
+        ],
+        "b": [
+          -0.7545488993042122,
+          0.3102543604683001
+        ],
+        "abs_det_A": 0.40988145207053805,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.011989454524469478,
+        0.685368581841403
+      ],
+      [
+        -1.8123423392836269,
+        -0.9632664855413833
+      ]
+    ],
+    "b": [
+      -0.07696586166884944,
+      -1.0681390071669496
+    ],
+    "abs_det_A": 1.2536715386092943,
+    "affine_layer_abs_dets": [
+      3.0586198333110843,
+      0.40988145207053805
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 93,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.2597214516032338,
+            0.16670662738082576
+          ],
+          [
+            -0.9056489188779953,
+            1.1133778583979077
+          ]
+        ],
+        "b": [
+          1.35985334072096,
+          -0.3841947064406419
+        ],
+        "abs_det_A": 0.13819043670876263,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.8056588041201564,
+            -0.6393946759490488
+          ],
+          [
+            1.0446922136914556,
+            -0.15803592968080826
+          ]
+        ],
+        "b": [
+          -0.49086631349522936,
+          -0.6053435377105383
+        ],
+        "abs_det_A": 0.5406476013250855,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        0.36982022290658967,
+        -0.5775792129246354
+      ],
+      [
+        -0.1282039093592377,
+        -0.0017965893424291557
+      ]
+    ],
+    "b": [
+      0.8503635525947733,
+      0.8760012267137549
+    ],
+    "abs_det_A": 0.07471232813265856,
+    "affine_layer_abs_dets": [
+      0.13819043670876263,
+      0.5406476013250855
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 94,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -1.335577418080603,
+            0.07980785496151199
+          ],
+          [
+            0.8477876918119023,
+            0.13908372926841128
+          ]
+        ],
+        "b": [
+          -1.2989322610342176,
+          1.6133956225560802
+        ],
+        "abs_det_A": 0.25341720517960564,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.564503900913532,
+            0.20727506918210303
+          ],
+          [
+            -0.7454911611645276,
+            -0.7952876702856375
+          ]
+        ],
+        "b": [
+          -1.3295063774936322,
+          -0.5249926613236036
+        ],
+        "abs_det_A": 0.2944212602196534,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.5782134100064761,
+        0.07388043505552974
+      ],
+      [
+        0.32142606191210465,
+        -0.17010762548982092
+      ]
+    ],
+    "b": [
+      -1.7283420165864685,
+      -0.8397637876828101
+    ],
+    "abs_det_A": 0.07461141291032197,
+    "affine_layer_abs_dets": [
+      0.25341720517960564,
+      0.2944212602196534
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 95,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.0776574298832835,
+            1.3306814955500945
+          ],
+          [
+            -0.10167105199539406,
+            -0.428025262039218
+          ]
+        ],
+        "b": [
+          -0.8589062030896994,
+          -0.4162401554387474
+        ],
+        "abs_det_A": 0.168531129298467,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            -1.051203993278963,
+            -0.4916303934837938
+          ],
+          [
+            1.1974296536833116,
+            -1.143294127357664
+          ]
+        ],
+        "b": [
+          -1.3243348621296294,
+          -0.9167118966092311
+        ],
+        "abs_det_A": 1.7905281639802533,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        0.13161837969949552,
+        -1.1883874739073372
+      ],
+      [
+        0.023250607297533518,
+        2.082756250829504
+      ]
+    ],
+    "b": [
+      -0.21681292018755838,
+      -1.469306728637817
+    ],
+    "abs_det_A": 0.3017597335163028,
+    "affine_layer_abs_dets": [
+      0.168531129298467,
+      1.7905281639802533
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 96,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            0.5398319384698631,
+            -0.9626381994657714
+          ],
+          [
+            0.2769519574144943,
+            1.179618217255089
+          ]
+        ],
+        "b": [
+          0.011623258336514564,
+          1.3857904846047782
+        ],
+        "abs_det_A": 0.9034001224991888,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.9914545786349902,
+            1.064863969233496
+          ],
+          [
+            -1.1046027092424646,
+            1.3500272682600638
+          ]
+        ],
+        "b": [
+          -1.9939254972183895,
+          -0.9304094805074801
+        ],
+        "abs_det_A": 2.5147423417885326,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        0.8301350077487326,
+        0.3017208865771124
+      ],
+      [
+        -0.22240712726185496,
+        2.6558495225808736
+      ]
+    ],
+    "b": [
+      -0.5067232085597408,
+      0.9276063791555595
+    ],
+    "abs_det_A": 2.271818539625657,
+    "affine_layer_abs_dets": [
+      0.9034001224991888,
+      2.5147423417885326
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 97,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            -0.7283811897094988,
+            -1.217879175191476
+          ],
+          [
+            -1.494642730644196,
+            0.47949818860146864
+          ]
+        ],
+        "b": [
+          -0.4988182854150711,
+          1.361639307747959
+        ],
+        "abs_det_A": 2.1695517170799765,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            1.321761717845896,
+            1.3296474758041699
+          ],
+          [
+            0.8920544624439697,
+            0.4866596426038934
+          ]
+        ],
+        "b": [
+          -1.1039450659626673,
+          -1.1871546486199023
+        ],
+        "abs_det_A": 0.5428698790540781,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -2.9500943065871716,
+        -0.9721825146032136
+      ],
+      [
+        -1.3771379877564178,
+        -0.8530621358531322
+      ]
+    ],
+    "b": [
+      0.047236288716974606,
+      -0.9694728272090316
+    ],
+    "abs_det_A": 1.1777842782527743,
+    "affine_layer_abs_dets": [
+      2.1695517170799765,
+      0.5428698790540781
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 98,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            0.16293093420492388,
+            1.0560355618273505
+          ],
+          [
+            -0.9488171561484083,
+            1.2676859942667495
+          ]
+        ],
+        "b": [
+          1.5600349472154553,
+          0.2586961488705479
+        ],
+        "abs_det_A": 1.2085299218889924,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.5933970532260724,
+            0.1702451762801882
+          ],
+          [
+            -0.33042031715588704,
+            -1.0566408101175242
+          ]
+        ],
+        "b": [
+          -1.69874654154779,
+          -0.32234636842927644
+        ],
+        "abs_det_A": 0.570755077901389,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        -0.06484880776957971,
+        0.842465816052158
+      ],
+      [
+        0.9487232375715637,
+        -1.6884243612235457
+      ]
+    ],
+    "b": [
+      -0.7289846294729753,
+      -1.1111625187793341
+    ],
+    "abs_det_A": 0.6897745897139115,
+    "affine_layer_abs_dets": [
+      1.2085299218889924,
+      0.570755077901389
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  },
+  {
+    "program_id": 99,
+    "program_type": "guarded_affine_sequence",
+    "schema_version": 2,
+    "execution_order": "affine_then_guard_per_layer",
+    "guard_after_each_affine": true,
+    "num_affine_layers": 2,
+    "affine_layers": [
+      {
+        "layer_id": 0,
+        "A": [
+          [
+            0.8275488642038393,
+            -0.8134277781137546
+          ],
+          [
+            0.4585064081936159,
+            -0.16672403409792924
+          ]
+        ],
+        "b": [
+          1.7040366690169546,
+          -1.5261030344573414
+        ],
+        "abs_det_A": 0.23498956381462768,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      },
+      {
+        "layer_id": 1,
+        "A": [
+          [
+            0.9705457968425155,
+            -0.8889185586467477
+          ],
+          [
+            0.6702063210054869,
+            0.4952420134201383
+          ]
+        ],
+        "b": [
+          1.3416648454543236,
+          1.7143275033284096
+        ],
+        "abs_det_A": 1.0764138914088768,
+        "guard": {
+          "type": "quadrant",
+          "constraints": [
+            "x >= 0",
+            "y >= 0"
+          ]
+        }
+      }
+    ],
+    "A": [
+      [
+        0.3955992163330675,
+        -0.6412648230011483
+      ],
+      [
+        0.7817001164901666,
+        -0.6277331849054733
+      ]
+    ],
+    "b": [
+      4.352091781970498,
+      2.1005933106574712
+    ],
+    "abs_det_A": 0.25294603082617795,
+    "affine_layer_abs_dets": [
+      0.23498956381462768,
+      1.0764138914088768
+    ],
+    "guard": {
+      "type": "quadrant",
+      "constraints": [
+        "x >= 0",
+        "y >= 0"
+      ]
+    },
+    "composed_affine_is_diagnostic_only": true
+  }
+]
